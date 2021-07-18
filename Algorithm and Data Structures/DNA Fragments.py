@@ -6,17 +6,27 @@ ___author___: "Ryan Li Jian Tang"
 ___university___: "Monash University"
 
 Brief 1:
-The task of this code was to maintain a database that was used in a study for drug resistances. The database is used to store Bacterial DNA collected from patients. Each bacterial DNA contains a drug resistant gene sequence. Researchers will need to be able to add new sequences and query existing sequences in the database. 
+The task of this code was to maintain a database that was used in a study for drug resistances. The database is used to
+store Bacterial DNA collected from patients. Each bacterial DNA contains a drug resistant gene sequence. Researchers will 
+need to be able to add new sequences and query existing sequences in the database. 
 
 Queries return a string that satisfies the following conditions:
     - Must contain the sequence queried as the prefix
     - Have a higher frequency in the database than any other sequences with q as prefix
     - Return lexicographically least if multiple strings are tied for query
 
-DNA sequence is typically denoted using A, T, C and G. However for ease of coding and proving that the functionalities work. A, B, C and D will be used instead due to adjacent ASCII Values.
+DNA sequence is typically denoted using A, T, C and G. However for ease of coding and proving that the functionalities work.
+A, B, C and D will be used instead due to adjacent ASCII Values.
 
 Methodology:
-As I need to be able to satisfy the requirements of the Query function. I would need to maintain a frequency count of each inserted genome string while effectively maintaining the structure. Thus, the best way to do that will be the use of a Trie data structure. Currently a trie is currently the fastest way that I know of to efficiently insert and query for a given string. Simply enough, insert a genome string and if it exists update the frequency at the terminal node. Then to have an efficient query, each node will store a reference to the highest frequency and least lexicographically string. Thus, if a prefix is given the query will only require to traverse len(prefix) nodes to obtain the answer. The references are updated after each insertion of a genome string. This is done by backtracking from the terminal node to the root node and updating the references if the inserted node now has a higher frequency than the current highest.
+As I need to be able to satisfy the requirements of the Query function. I would need to maintain a frequency count of each 
+inserted genome string while effectively maintaining the structure. Thus, the best way to do that will be the use of a Trie 
+data structure. Currently a trie is currently the fastest way that I know of to efficiently insert and query for a given string. 
+Simply enough, insert a genome string and if it exists update the frequency at the terminal node. Then to have an efficient query, 
+each node will store a reference to the highest frequency and least lexicographically string. Thus, if a prefix is given the 
+query will only require to traverse len(prefix) nodes to obtain the answer. The references are updated after each insertion 
+of a genome string. This is done by backtracking from the terminal node to the root node and updating the references if 
+the inserted node now has a higher frequency than the current highest.
 
 """
 
