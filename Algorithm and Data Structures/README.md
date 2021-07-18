@@ -4,8 +4,22 @@ These are all the projects that I have experienced and gone through in this unit
 
 ## Dynamic Programming
 
+### Athlete Work's Schedule
+
+### Sales Itinerary
+
 ## Tries and Trees Data Structures
 
+### DNA Fragments
+
+### OrfFinder
+
 ## Graph Algorithms
+
+Involves the own implementation of a full Min-Heap, Graph (Inclusive of Dijkstra method). 
+
+### Liquid Trading
+
+### Optional Delivery.
 
 
