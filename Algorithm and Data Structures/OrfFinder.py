@@ -6,21 +6,22 @@ ___author___: "Ryan Li Jian Tang"
 ___university___: "Monash University"
 
 Brief:
-In Molecular Genetics, there is a notion of Open Reading Frame (ORF). An ORF is a portion of DNA that is used as the blueprint for a protein. 
-All ORFs start with a particular sequence and end with a particular sequence. 
+In Molecular Genetics, there is a notion of Open Reading Frame (ORF). An ORF is a portion of DNA that is used as the 
+blueprint for a protein. All ORFs start with a particular sequence and end with a particular sequence. 
 
-The task is to find all sections of a genome which start with a given sequence of characters and end with a possibly different given sequence 
-of characters 
+The task is to find all sections of a genome which start with a given sequence of characters and end with a possibly 
+different given sequence of characters 
 
-DNA sequence is typically denoted using A, T, C and G. However for ease of coding and proving that the functionalities work. A, B, C and D will
-be used instead due to adjacent ASCII Values.
+DNA sequence is typically denoted using A, T, C and G. However for ease of coding and proving that the functionalities work.
+A, B, C and D will be used instead due to adjacent ASCII Values.
 
 Methodology:
-The idea is to maintain the genome in a trie data structure for easier searching. In particular a prefix trie of the genome is created, followed
-by a suffix trie of the reversed genome (An Example is given below to illustrate how this looks). In each node of the trie, there will be a record
-that contains parts of genomes that has the related prefix or suffixes of the remainder trie. Then what needs to be done is to conduct a search of 
-the starting genome in the prefix trie, and a search of the ending genome in the reversed suffix trie to retrieve 2 records from the different tries.
-Afterwards a check is done to compare if there are any available combinations between the 2 records. 
+The idea is to maintain the genome in a trie data structure for easier searching. In particular a prefix trie of the 
+genome is created, followed by a suffix trie of the reversed genome (An Example is given below to illustrate how this looks). 
+In each node of the trie, there will be a record that contains parts of genomes that has the related prefix or suffixes 
+of the remainder trie. Then what needs to be done is to conduct a search of the starting genome in the prefix trie, and 
+a search of the ending genome in the reversed suffix trie to retrieve 2 records from the different tries. Afterwards a 
+check is done to compare if there are any available combinations between the 2 records. 
 
 Example. If the genome given was "ABCD":
 Prefix Trie: ["ABCD", "BCD" , "CD", "D"]
