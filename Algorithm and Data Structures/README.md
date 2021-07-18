@@ -8,8 +8,8 @@ Below is a brief description of each type of problems solved in the unit, with t
 These problems required the usage of dynamic programming to solve. 
 
 ### Athlete Work's Schedule:
-An Athlete is having trouble finding the highest amount of cash they can earn in a certain number of weeks. The problem they face requires them to decide to either work as a personal trainer or participate in competitions to earn a cash prize. However, they can't do both in the same week.
-
+An Athlete is having trouble finding the highest amount of cash they can earn in a certain number of weeks. The problem they face requires them to decide to either work as a personal trainer or participate in competitions (cash prize included) in certain weeks. However, they can't do both in the same week.
+ 
 ### Sales Itinerary:
 A Salesperson is stuck in a COVID-19 Situation. Pre-pandemic, they used to commute to different cities to work to get the highest possible income available. However, during the crisis each city has imposed their own quarantine period to any traveller that desire to work in the city. Help the salesperson to find the highest possible income available now.
 
