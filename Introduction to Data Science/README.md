@@ -19,6 +19,6 @@ This project was based on mail traffic in Australia's Capital Ports. An overall 
 Employs more in-depth usages of pandas to transform data into meaningful information. Introduces the usages of machine learning and how they might help in data processing and analysis.
 
 ## Facebook Dataset (Cygwin and R-studio)
-This project was based on extracting data from a relatively large source. Normal usages of pandas cannot be done effectively, hence, the introduction of Cygwin and its pipeline capabilities to process and manipulate large-scale data. Afterwards, converting of the processed data into meaningful visualisations using R-studio.
+This project was based on extracting data from a relatively large source. Normal usages of pandas cannot be done effectively, hence, the introduction of Cygwin and its pipeline capabilities to process and manipulate large-scale data. Afterwards, converting of the processed data into meaningful visualisations using R-studio. Contains very detailed steps of what was done and explanation of code.
 
 Introduction to processing larger amounts of data using Cygwin. Then introduction of R-studio plotting.
