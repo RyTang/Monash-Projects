@@ -20,14 +20,17 @@ Below are the table of contents and projects that I've done in this unit. It wil
 
 ## Animal Doctors Conceptual Model
 [File Preview](https://github.com/RyTang/Monash-Projects/blob/main/Databases/ad_conceptual.pdf)
+
 This is a version of the conceptual model that I have created based on the situation given from Animal Doctors.
 
 ## Animal Doctors Normalisation Process
 [File Preview](https://github.com/RyTang/Monash-Projects/blob/main/Databases/ad_normalisation.pdf)
+
 Conducting the normalisation process based on administration forms used by Animal Doctors to make records.
 
 ## Animal Doctors Logical Model
 [File Preview](https://github.com/RyTang/Monash-Projects/blob/main/Databases/ad_logical.pdf)
+
 The merging of the information gathered from both conceptual model and normalisation to create a logical model. The logical model was then created using Oracle.
 
 ## Animal Doctor Synopsis
