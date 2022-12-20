@@ -1,0 +1,118 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Best Country to Live in By Year",
+    "data": {
+        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/country_index.csv"
+    },
+    "width": "container",
+    "height": 450,
+    "params": [
+        {
+            "name": "starting_year",
+            "value": 2015,
+            "bind": {
+                "input": "range",
+                "min": 2001,
+                "max": 2020,
+                "step": 1,
+                "name": "Year: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "calculate": "(parseFloat(datum.GDP) + parseFloat(datum.Poverty) + parseFloat(datum.Unemployment)) / 3",
+            "as": "country_index"
+        },
+        {
+            "filter": "datum.Year == starting_year"
+        },
+        {
+            "window": [
+                {
+                    "op": "dense_rank",
+                    "field": "country_index",
+                    "as": "rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "country_index",
+                    "order": "descending"
+                }
+            ]
+        }
+    ],
+    "layer": [
+        {
+            "transform": [
+                {
+                    "filter": "datum.rank <= 10"
+                },
+                {
+                    "fold": [
+                        "GDP",
+                        "Poverty",
+                        "Unemployment"
+                    ],
+                    "as": [
+                        "column",
+                        "value"
+                    ]
+                }
+            ],
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "value",
+                    "type": "quantitative",
+                    "title": "Country Index (%)"
+                },
+                "y": {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country",
+                    "sort": {
+                        "field": "country_index",
+                        "order": "descending"
+                    }
+                },
+                "color": {
+                    "field": "column",
+                    "type": "nominal",
+                    "title": "Indexes"
+                },
+                "tooltip": [
+                    {
+                        "field": "Country",
+                        "type": "nominal",
+                        "title": "Country"
+                    },
+                    {
+                        "field": "Year",
+                        "type": "nominal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "GDP",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "GDP Index (%)"
+                    },
+                    {
+                        "field": "Poverty",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "People not in Poverty Index (%)"
+                    },
+                    {
+                        "field": "Unemployment",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Employability Index (%)"
+                    }
+                ]
+            }
+        }
+    ]
+}

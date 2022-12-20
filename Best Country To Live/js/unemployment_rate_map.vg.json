@@ -1,0 +1,699 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "vconcat": [
+        {
+            "width": "container",
+            "height": 500,
+            "title": "Unemployment Rate across the World",
+            "projection": {
+                "type": "equalEarth"
+            },
+            "layer": [
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/countryLayout.topojson",
+                        "format": {
+                            "type": "topojson",
+                            "feature": "ne_110m_admin_0_countries"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "calculate": "'Data not available in ' + datum.properties.NAME",
+                            "as": "note"
+                        }
+                    ],
+                    "mark": {
+                        "type": "geoshape",
+                        "fill": "lightgray"
+                    },
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "note",
+                                "type": "nominal",
+                                "title": "Note"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/oceans.topojson",
+                        "format": {
+                            "type": "topojson",
+                            "feature": "oceans"
+                        }
+                    },
+                    "mark": {
+                        "type": "geoshape",
+                        "fill": "skyblue"
+                    }
+                },
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/unemployment_years_clean.csv"
+                    },
+                    "params": [
+                        {
+                            "name": "chosen_country",
+                            "select": {
+                                "type": "point",
+                                "fields": [
+                                    "Country Name"
+                                ]
+                            }
+                        }
+                    ],
+                    "transform": [
+                        {
+                            "lookup": "Country Name",
+                            "from": {
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/countryLayout.topojson",
+                                    "format": {
+                                        "type": "topojson",
+                                        "feature": "ne_110m_admin_0_countries"
+                                    }
+                                },
+                                "key": "properties.NAME"
+                            },
+                            "as": "geo"
+                        },
+                        {
+                            "lookup": "Country Name",
+                            "from": {
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/literacy_rate.csv"
+                                },
+                                "key": "country",
+                                "fields": [
+                                    "literacy_rate_percent_all"
+                                ]
+                            }
+                        },
+                        {
+                            "filter": {
+                                "param": "chosen_year",
+                                "empty": true
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "geoshape",
+                        "stroke": "white"
+                    },
+                    "encoding": {
+                        "shape": {
+                            "field": "geo",
+                            "type": "geojson"
+                        },
+                        "color": {
+                            "field": "Unemployment",
+                            "type": "quantitative",
+                            "title": "Unemployment Percentage (%)",
+                            "scale": {
+                                "type": "threshold",
+                                "domain": [
+                                    5,
+                                    10,
+                                    15,
+                                    20,
+                                    25,
+                                    30
+                                ],
+                                "range": [
+                                    "#fdbe85",
+                                    "#fd8d3c",
+                                    "#e6550d",
+                                    "#a63603"
+                                ]
+                            },
+                            "legend": {
+                                "direction": "vertical",
+                                "orient": "top-left"
+                            }
+                        },
+                        "strokeOpacity": {
+                            "condition": {
+                                "param": "chosen_country",
+                                "value": 1
+                            },
+                            "value": 0
+                        },
+                        "opacity": {
+                            "condition": {
+                                "param": "chosen_country",
+                                "value": 1
+                            },
+                            "value": 0.03
+                        },
+                        "tooltip": [
+                            {
+                                "field": "Country Name",
+                                "type": "nominal",
+                                "title": "Country"
+                            },
+                            {
+                                "field": "Year",
+                                "type": "nominal",
+                                "timeUnit": "year",
+                                "title": "Year"
+                            },
+                            {
+                                "field": "Unemployment",
+                                "type": "quantitative",
+                                "title": "Unemployment Rate (%)"
+                            },
+                            {
+                                "field": "literacy_rate_percent_all",
+                                "type": "quantitative",
+                                "title": "Literacy Rate (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/countryLayout.topojson",
+                        "format": {
+                            "type": "topojson",
+                            "feature": "ne_110m_graticules_30"
+                        }
+                    },
+                    "mark": {
+                        "type": "geoshape",
+                        "fill": null,
+                        "stroke": "lightgray"
+                    }
+                },
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/unemployment_years_clean.csv"
+                    },
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "chosen_year"
+                            }
+                        },
+                        {
+                            "calculate": "'Displaying Data for Year: ' + year(datum.Year)",
+                            "as": "Note"
+                        }
+                    ],
+                    "mark": {
+                        "type": "text",
+                        "align": "center",
+                        "y": 450,
+                        "fontWeight": "lighter",
+                        "fontSize": 15
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "Note"
+                        }
+                    }
+                },
+                {
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/countryLayout.topojson",
+                        "format": {
+                            "type": "topojson",
+                            "feature": "ne_110m_admin_0_countries"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "lookup": "properties.NAME",
+                            "from": {
+                                "data": {
+                                    "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/countryInfo.csv"
+                                },
+                                "key": "name",
+                                "fields": [
+                                    "latitude",
+                                    "longitude"
+                                ]
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "text"
+                    },
+                    "encoding": {
+                        "longitude": {
+                            "field": "longitude",
+                            "type": "quantitative"
+                        },
+                        "latitude": {
+                            "field": "latitude",
+                            "type": "quantitative"
+                        },
+                        "text": {
+                            "field": "properties.NAME",
+                            "type": "nominal"
+                        },
+                        "opacity": {
+                            "condition": {
+                                "test": "datum['properties.NAME'] == 'China' || datum['properties.NAME'] == 'Brazil' || datum['properties.NAME'] == 'Australia' || datum['properties.NAME'] == 'Malaysia' ||  datum['properties.NAME'] == 'Yemen' ||  datum['properties.NAME'] == 'United States of America' || datum['properties.NAME'] == 'Algeria' || datum['properties.NAME'] == 'Russia'",
+                                "value": 1
+                            },
+                            "value": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "width": "container",
+            "height": 150,
+            "title": "Average Unemployment Rate (Click on a point)",
+            "data": {
+                "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/unemployment_years_clean.csv"
+            },
+            "params": [
+                {
+                    "name": "chosen_year",
+                    "select": {
+                        "type": "point",
+                        "encodings": [
+                            "x"
+                        ]
+                    },
+                    "value": {
+                        "x": [
+                            {
+                                "year": 2015
+                            }
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "point": {
+                    "fill": "white",
+                    "filled": false,
+                    "size": 60
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "timeUnit": "year"
+                },
+                "y": {
+                    "aggregate": "average",
+                    "field": "Unemployment",
+                    "type": "quantitative",
+                    "title": "Unemployment Rate (%)"
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "chosen_year",
+                        "value": 1.0
+                    },
+                    "value": 0.2
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "temporal",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    },
+                    {
+                        "aggregate": "average",
+                        "field": "Unemployment",
+                        "type": "quantitative",
+                        "format": ".2f",
+                        "title": "Avg. Unemployment Rate (%)"
+                    }
+                ]
+            }
+        },
+        {
+            "hconcat": [
+                {
+                    "width": 650,
+                    "height": 450,
+                    "title": "Top Unemployed Countries by Year",
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/unemployment_years_clean.csv"
+                    },
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "chosen_year"
+                            }
+                        },
+                        {
+                            "window": [
+                                {
+                                    "op": "dense_rank",
+                                    "field": "Unemployment",
+                                    "as": "rank"
+                                }
+                            ],
+                            "groupby": [
+                                "Year"
+                            ],
+                            "sort": [
+                                {
+                                    "field": "Unemployment",
+                                    "order": "descending"
+                                }
+                            ]
+                        },
+                        {
+                            "joinaggregate": [
+                                {
+                                    "op": "mean",
+                                    "field": "Unemployment",
+                                    "as": "average_unemployment"
+                                }
+                            ],
+                            "groupby": [
+                                "Year"
+                            ]
+                        },
+                        {
+                            "joinaggregate": [
+                                {
+                                    "op": "median",
+                                    "field": "Unemployment",
+                                    "as": "median_unemployment"
+                                }
+                            ],
+                            "groupby": [
+                                "Year"
+                            ]
+                        }
+                    ],
+                    "layer": [
+                        {
+                            "transform": [
+                                {
+                                    "calculate": "datum.Unemployment - datum.average_unemployment",
+                                    "as": "average_difference"
+                                },
+                                {
+                                    "calculate": "datum.Unemployment - datum.median_unemployment",
+                                    "as": "median_difference"
+                                },
+                                {
+                                    "filter": "datum.rank <= 10"
+                                }
+                            ],
+                            "mark": "bar",
+                            "encoding": {
+                                "x": {
+                                    "field": "Unemployment",
+                                    "type": "quantitative",
+                                    "title": "Unemployment Rate (%)"
+                                },
+                                "y": {
+                                    "field": "Country Name",
+                                    "type": "nominal",
+                                    "title": "Country",
+                                    "sort": {
+                                        "field": "Unemployment",
+                                        "order": "descending"
+                                    }
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Country Name",
+                                        "type": "nominal",
+                                        "title": "Country"
+                                    },
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "timeUnit": "year",
+                                        "title": "Year"
+                                    },
+                                    {
+                                        "field": "Unemployment",
+                                        "type": "quantitative",
+                                        "title": "Unemployment Rate (%)",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "average_difference",
+                                        "type": "quantitative",
+                                        "title": "Difference from Average (%)",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "median_difference",
+                                        "type": "quantitative",
+                                        "title": "Difference from Median (%)",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "rank",
+                                        "type": "quantitative",
+                                        "title": "Ranking"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "rule",
+                                "color": "red"
+                            },
+                            "encoding": {
+                                "x": {
+                                    "field": "average_unemployment",
+                                    "type": "quantitative"
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "timeUnit": "year",
+                                        "title": "Year"
+                                    },
+                                    {
+                                        "field": "average_unemployment",
+                                        "type": "quantitative",
+                                        "title": "Average Unemployment Rate (%)",
+                                        "format": ".2f"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "rule",
+                                "color": "yellow"
+                            },
+                            "encoding": {
+                                "x": {
+                                    "field": "median_unemployment",
+                                    "type": "quantitative"
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "timeUnit": "year",
+                                        "title": "Year"
+                                    },
+                                    {
+                                        "field": "median_unemployment",
+                                        "type": "quantitative",
+                                        "title": "Median Unemployment Rate (%)",
+                                        "format": ".2f"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "width": 650,
+                    "height": 450,
+                    "title": "Top Countries in Poverty",
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/poverty.csv"
+                    },
+                    "transform": [
+                        {
+                            "window": [
+                                {
+                                    "op": "dense_rank",
+                                    "field": "Poverty",
+                                    "as": "rank"
+                                }
+                            ],
+                            "groupby": [
+                                "Year"
+                            ],
+                            "sort": [
+                                {
+                                    "field": "Poverty",
+                                    "order": "descending"
+                                }
+                            ]
+                        },
+                        {
+                            "joinaggregate": [
+                                {
+                                    "op": "mean",
+                                    "field": "Poverty",
+                                    "as": "average_poverty"
+                                }
+                            ],
+                            "groupby": [
+                                "Year"
+                            ]
+                        },
+                        {
+                            "joinaggregate": [
+                                {
+                                    "op": "median",
+                                    "field": "Poverty",
+                                    "as": "median_poverty"
+                                }
+                            ],
+                            "groupby": [
+                                "Year"
+                            ]
+                        },
+                        {
+                            "filter": {
+                                "param": "chosen_year"
+                            }
+                        }
+                    ],
+                    "layer": [
+                        {
+                            "transform": [
+                                {
+                                    "calculate": "datum.Poverty - datum.average_poverty",
+                                    "as": "average_difference"
+                                },
+                                {
+                                    "calculate": "datum.Poverty - datum.median_poverty",
+                                    "as": "median_difference"
+                                },
+                                {
+                                    "filter": "datum.rank <= 10"
+                                }
+                            ],
+                            "mark": "bar",
+                            "encoding": {
+                                "x": {
+                                    "field": "Poverty",
+                                    "type": "quantitative",
+                                    "title": "Poverty Rate (%)"
+                                },
+                                "y": {
+                                    "field": "Entity",
+                                    "type": "nominal",
+                                    "title": null,
+                                    "sort": {
+                                        "field": "Poverty",
+                                        "order": "descending"
+                                    }
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Entity",
+                                        "type": "nominal",
+                                        "title": "Country"
+                                    },
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "timeUnit": "year",
+                                        "title": "Year"
+                                    },
+                                    {
+                                        "field": "Poverty",
+                                        "type": "quantitative",
+                                        "title": "Poverty Rate (%)",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "average_difference",
+                                        "type": "quantitative",
+                                        "title": "Difference from Average (%)",
+                                        "format": ".2f"
+                                    },
+                                    {
+                                        "field": "median_difference",
+                                        "type": "quantitative",
+                                        "title": "Difference from Median (%)",
+                                        "format": ".2f"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "rule",
+                                "color": "red"
+                            },
+                            "encoding": {
+                                "x": {
+                                    "field": "average_poverty",
+                                    "type": "quantitative"
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "timeUnit": "year",
+                                        "title": "Year"
+                                    },
+                                    {
+                                        "field": "average_poverty",
+                                        "type": "quantitative",
+                                        "title": "Average Poverty Rate (%)",
+                                        "format": ".2f"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "rule",
+                                "color": "yellow"
+                            },
+                            "encoding": {
+                                "x": {
+                                    "field": "median_poverty",
+                                    "type": "quantitative"
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "Year",
+                                        "type": "temporal",
+                                        "timeUnit": "year",
+                                        "title": "Year"
+                                    },
+                                    {
+                                        "field": "median_poverty",
+                                        "type": "quantitative",
+                                        "title": "Median Poverty Rate (%)",
+                                        "format": ".2f"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "config": {
+        "text": {
+            "font": "monospace"
+        }
+    }
+}

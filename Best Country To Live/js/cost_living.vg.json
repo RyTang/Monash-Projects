@@ -1,0 +1,324 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Cost of Living Index Compared to New York",
+    "data": {
+        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/cost_of_living_index_2022.csv"
+    },
+    "width": "container",
+    "height": 1050,
+    "params": [
+        {
+            "name": "param_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "cost_of_living_index",
+                    "local_purchasing_power_index",
+                    "rent_index",
+                    "living_rent_index",
+                    "groceries_index",
+                    "restaurant_price_index"
+                ],
+                "labels": [
+                    "Cost of Living Index",
+                    "Local Purchasing Power Index",
+                    "Cost of Rent Index",
+                    "Cost of Rent + Living Index",
+                    "Groceries Price Index",
+                    "Restaurant Price Index"
+                ],
+                "name": "Sort By: "
+            },
+            "value": "cost_of_living_index"
+        }
+    ],
+    "transform": [
+        {
+            "calculate": "parseFloat(datum[param_selection])",
+            "as": "data_selected"
+        },
+        {
+            "window": [
+                {
+                    "op": "dense_rank",
+                    "field": "data_selected",
+                    "as": "rank"
+                }
+            ],
+            "sort": [
+                {
+                    "field": "data_selected",
+                    "order": "descending"
+                }
+            ]
+        },
+        {
+            "filter": "datum.rank <= 10"
+        }
+    ],
+    "layer": [
+        {
+            "encoding": {
+                "y": {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country",
+                    "sort": {
+                        "field": "data_selected",
+                        "order": "descending"
+                    }
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "bar",
+                        "yOffset": -30,
+                        "height": 15
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "cost_of_living_index",
+                            "type": "quantitative",
+                            "title": "Percentage Index (%)"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "cost_of_living_index",
+                                "type": "quantitative",
+                                "title": "Cost of Living Index (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "bar",
+                        "yOffset": -15,
+                        "height": 15,
+                        "color": "#F4F1DE"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "local_purchasing_power_index",
+                            "type": "quantitative",
+                            "title": "Percentage Index (%)"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "local_purchasing_power_index",
+                                "type": "quantitative",
+                                "title": "Purchasing Power Index (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "bar",
+                        "yOffset": 0,
+                        "height": 15,
+                        "color": "#E07A5F"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "rent_index",
+                            "type": "quantitative",
+                            "title": "Percentage Index (%)"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "rent_index",
+                                "type": "quantitative",
+                                "title": "Rent Index (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "bar",
+                        "yOffset": 15,
+                        "height": 15,
+                        "color": "#3D405B"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "living_rent_index",
+                            "type": "quantitative",
+                            "title": "Percentage Index (%)"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "living_rent_index",
+                                "type": "quantitative",
+                                "title": "Living + Rent Index (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "bar",
+                        "yOffset": 30,
+                        "height": 15,
+                        "color": "#81B29A"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "groceries_index",
+                            "type": "quantitative",
+                            "title": "Percentage Index (%)"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "groceries_index",
+                                "type": "quantitative",
+                                "title": "Groceries Index (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "bar",
+                        "yOffset": 45,
+                        "height": 15,
+                        "color": "#F2CC8F"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "restaurant_price_index",
+                            "type": "quantitative",
+                            "title": "Percentage Index (%)"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "restaurant_price_index",
+                                "type": "quantitative",
+                                "title": "Restaurant Price Index (%)"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "transform": [
+                {
+                    "fold": [
+                        "cost_of_living_index",
+                        "local_purchasing_power_index",
+                        "rent_index",
+                        "living_rent_index",
+                        "groceries_index",
+                        "restaurant_price_index"
+                    ],
+                    "as": [
+                        "field",
+                        "value"
+                    ]
+                }
+            ],
+            "mark": "text",
+            "encoding": {
+                "fill": {
+                    "field": "field",
+                    "legend": {
+                        "title": "Indexes",
+                        "symbolType": "square",
+                        "orient": "bottom-right",
+                        "labelExpr": "{'cost_of_living_index' : 'Living Cost', 'local_purchasing_power_index' : 'Purchasing Power', 'rent_index' : 'Rent Cost', 'living_rent_index': 'Living + Rent Cost', 'groceries_index' : 'Groceries', 'restaurant_price_index' : 'Restaurant Price'}[datum.label]"                        
+                    }
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "index": 100,
+                        "event": "Every Country's Index is compared to New York"
+                    }
+                ]
+            },
+            "mark": "rule",
+            "encoding": {
+                "x": {
+                    "field": "index",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "event",
+                        "type": "nominal",
+                        "title": "Description"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "index": 100,
+                        "event": "New York's Index",
+                        "description": "Every Country's Index is compared to New York"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "fontSize": 20,
+                "dx": 5
+            },
+            "encoding": {
+                "x": {
+                    "field": "index",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "event"
+                },
+                "tooltip": [
+                    {
+                        "field": "description",
+                        "type": "nominal",
+                        "title": "Description"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "index": 135,
+                        "text": "Hover for an Explanation",
+                        "description": "In this graph, every country's index is done in comparison to New York. Thus, if a certain index for a country is higher than 100%, then that means that this country cost for that index is higher than New York. Vice-Versa if the index is lower than 100%"
+                    }
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "fontSize": 20,
+                "dy": 120
+            },
+            "encoding": {
+                "text": {
+                    "field": "text",
+                    "type": "nominal"
+                },
+                "x": {
+                    "field": "index",
+                    "type": "quantitative"
+                },
+                "tooltip":{
+                    "field": "description"
+                }
+            }
+        }
+    ]
+}

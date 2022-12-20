@@ -1,0 +1,194 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/gdp_clean.csv"
+    },
+    "params": [
+        {
+            "name": "starting_year",
+            "value": 2015,
+            "bind": {
+                "input": "range",
+                "min": 1999,
+                "max": 2022,
+                "step": 1,
+                "name": "Chosen Year"
+            }
+        }
+    ],
+    "width": 500,
+    "height": 450,
+    "title": "Top GDP per Capita by Year",
+    "transform": [
+        {
+            "calculate": "parseInt(datum['gdp'])",
+            "as": "GDP"
+        },
+        {
+            "window": [
+                {
+                    "op": "dense_rank",
+                    "field": "GDP",
+                    "as": "rank"
+                }
+            ],
+            "groupby": [
+                "Year"
+            ],
+            "sort": [
+                {
+                    "field": "GDP",
+                    "order": "descending"
+                }
+            ]
+        },
+        {
+            "filter": {
+                "field": "Year",
+                "timeUnit": "year",
+                "equal": "starting_year"
+            }
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "mean",
+                    "field": "GDP",
+                    "as": "average_gdp"
+                }
+            ],
+            "groupby": [
+                "Year"
+            ]
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "median",
+                    "field": "GDP",
+                    "as": "median_gdp"
+                }
+            ],
+            "groupby": [
+                "Year"
+            ]
+        }
+    ],
+    "layer": [
+        {
+            "transform": [
+                {
+                    "calculate": "datum.GDP - datum.average_gdp",
+                    "as": "average_difference"
+                },
+                {
+                    "calculate": "datum.GDP - datum.median_gdp",
+                    "as": "median_difference"
+                },
+                {
+                    "filter": "datum.rank <= 10"
+                }
+            ],
+            "mark": "bar",
+            "encoding": {
+                "x": {
+                    "field": "GDP",
+                    "type": "quantitative",
+                    "title": "GDP per Capita"
+                },
+                "y": {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country",
+                    "sort": {
+                        "field": "gdp",
+                        "order": "descending"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Country",
+                        "type": "nominal",
+                        "title": "Country"
+                    },
+                    {
+                        "field": "Year",
+                        "type": "temporal",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "GDP",
+                        "type": "quantitative",
+                        "title": "GDP Per Capita",
+                        "format": ".2f"
+                    },
+                    {
+                        "field": "average_difference",
+                        "type": "quantitative",
+                        "title": "Difference from Average",
+                        "format": ".2f"
+                    },
+                    {
+                        "field": "median_difference",
+                        "type": "quantitative",
+                        "title": "Difference from Median",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "rule",
+                "color": "red"
+            },
+            "encoding": {
+                "x": {
+                    "field": "average_gdp",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "temporal",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "average_gdp",
+                        "type": "quantitative",
+                        "title": "Average GDP per Capita",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "rule",
+                "color": "yellow"
+            },
+            "encoding": {
+                "x": {
+                    "field": "median_gdp",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "temporal",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "median_gdp",
+                        "type": "quantitative",
+                        "title": "Median GDP per Capita",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 500,
+    "title": "Poverty Across Countries",
+    "data": {
+        "url": "https://raw.githubusercontent.com/rtan0053/FIT3179/main/data/poverty.csv"
+    },
+    "params": [
+        {
+            "name": "starting_year",
+            "value": 2003,
+            "bind": {
+                "input": "range",
+                "min": 1967,
+                "max": 2015,
+                "step": 1,
+                "name": "Starting Year"
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": {
+                "field": "Entity",
+                "oneOf": [
+                    "Malaysia",
+                    "Indonesia",
+                    "United Kingdom",
+                    "United States",
+                    "China",
+                    "Australia",
+                    "Belgium",
+                    "Japan",
+                    "Canada",
+                    "Ecuador",
+                    "Belarus",
+                    "Iraq",
+                    "Greece"
+                ]
+            }
+        },
+        {
+            "filter": {
+                "timeUnit": "year",
+                "field": "Year",
+                "gte": "starting_year"
+            }
+        }
+    ],
+    "layer": [
+        {
+            "data": {
+                "values": [
+                    {
+                        "Year": "2020",
+                        "event": "Covid Started"
+                    }
+                ],
+                "format": {
+                    "parse": {
+                        "Year": "date:'%Y'"
+                    }
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "type": "temporal",
+                    "timeUnit": "year"
+                }
+            },
+            "layer": [
+                {
+                    "mark": "rule",
+                    "encoding": {
+                        "size": {
+                            "value": 2
+                        },
+                        "tooltip": [
+                            {
+                                "field": "event",
+                                "type": "nominal",
+                                "title": "Time Event"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 2
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "event"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "data": {
+                "values": [
+                    {
+                        "start": 2003,
+                        "end": 2011,
+                        "event": "Iraq War"
+                    }
+                ],
+                "format": {
+                    "parse": {
+                        "start": "date:'%Y'",
+                        "end": "date:'%Y'"
+                    }
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "rect",
+                        "color": "lightgray",
+                        "opacity": 0.5
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "start",
+                            "timeUnit": "year"
+                        },
+                        "x2": {
+                            "field": "end",
+                            "timeUnit": "year"
+                        },
+                        "text": {
+                            "field": "event"
+                        },
+                        "tooltip": {
+                            "field": "event",
+                            "type": "nominal",
+                            "title": "Event"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 20
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "event"
+                        },
+                        "x":{
+                            "field": "start"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "mark": {
+                "type": "line",
+                "point": {
+                    "filled": false,
+                    "fill": "white"
+                }
+            },
+            "params": [
+                {
+                    "name": "country_highlight",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "Entity"
+                        ]
+                    },
+                    "bind": "legend"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "type": "temporal",
+                    "timeUnit": "year",
+                    "title": "Year"
+                },
+                "y": {
+                    "field": "Poverty",
+                    "type": "quantitative",
+                    "title": "Poverty Rate"
+                },
+                "color": {
+                    "field": "Entity",
+                    "title": "Countries (Click on the Legend)",
+                    "legend": {
+                        "symbolType": "square"
+                    }
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "country_highlight",
+                        "value": 1.0
+                    },
+                    "value": 0.2
+                },
+                "tooltip": [
+                    {
+                        "field": "Entity",
+                        "type": "nominal",
+                        "title": "Country:"
+                    },
+                    {
+                        "field": "Year",
+                        "type": "temporal",
+                        "timeUnit": "year",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Poverty",
+                        "type": "quantitative",
+                        "title": "Poverty Rate (%)",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        }
+    ]
+}

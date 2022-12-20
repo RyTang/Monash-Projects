@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finding the Best Country to Live In</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+
+</head>
+
+<body>
+    <div class="page">
+        <h1>What is the Best Country to Live in?</h1>
+
+        <hr>
+
+        <!-- pure grid group -->
+
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+                <div class="description description-left">
+                    <h2>
+                        What Makes a Good Country?
+                    </h2>
+                    <h3>
+                        What defines a good country to live in? What is a good Country comprised of? How do we rate
+                        countries that we live in? There are many
+                        definitions and opinions as to what to forms a good country to live in.
+                        <br>
+                        <br>
+                        In this dashboard, we will
+                        be mainly focusing on 3 aspects of life which are <span class="highlight-bold">Employment,
+                            Literacy, and the
+                            overall Enconomy of the Country </span>. The description on the right will discuss the main
+                        concepts
+                        that we will be exploring.
+                        <br>
+                        <br>
+                        The graphs below will lead you on discovering across the 3 factors mentioned above, including showing you which countries are suffering the most. As a finale, showing you how living cost in each country is compared to <span class="highlight-bold">living in New York</span>.
+                    </h3>
+                </div>
+            </div>
+            <div class="pure-u-1-2">
+                <img src="details.png" width="100%" , height="500">
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-2-3">
+                <div id="country_ranking" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="description description-right">
+                    <h2>
+                        Finding the Best Country
+                    </h2>
+                    <em>
+                        The data from this graph is a personal compilation of data from the sources used below. Thus,
+                        the data might not be reflective of the actual population data.
+                    </em>
+                    <p>
+                        Each country will have a dedicated peformance index for the 3 factors: GDP, Poverty, and
+                        Unemployment. Each best performing country will have a 100% performance index for that factor
+                        and every other country will be a percentage of that country. For countries, that do not contain
+                        data for that specific year, they are replaced with the median value for that year.
+                    </p>
+                    <p>
+                        Across the years, we can see that the
+                        <span class="highlight-bold">
+                            United States
+                        </span> claims
+                        its
+                        <span class="highlight-bold">
+                            first place
+                        </span> amongst all the countries in being the best country to live in closely followed behind
+                        by China and Japan.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="cloropleth_map" style="width: 90%;"></div>
+            </div>
+        </div>
+
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-3">
+                <div class="description description-left">
+                    <h2>
+                        How has Poverty been in Certain Countries?
+                    </h2>
+
+                    <em>
+                        <span class="highlight-bold">What defines poverty rate here?</span> Poverty Rate is defined as
+                        the rate of people that are living with an income below the a poverty line. For this dataset,
+                        it is the number of people that are living on less than $1.90 (International Dollars) a day. In
+                        other words, it shows the rate of those in extreme poverty.
+                    </em>
+
+                    <p>
+                        In the listed countries, we can see that all of them experienced a steady decline throughout the
+                        years, with <span class="highlight-bold">Indonesia </span> having the most significant
+                        difference across the years; <span class="highlight-bold">decreasing</span> by <span
+                            class="highlight-bold">roughly 18%</span> from 2007 to 2020. However for Ecuador, it
+                        experienced a <span class="highlight-bold">sudden increase</span> of <span
+                            class="highlight-bold">3%</span> in poverty
+                    </p>
+
+                </div>
+            </div>
+            <div class="pure-u-2-3">
+                <div id="poverty" class="vis-container"></div>
+            </div>
+        </div>
+        <!-- end pure grid group -->
+
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="cost_living" class="vis-container"></div>
+            </div>
+        </div>
+        
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <p class='highlight-bold' style="text-align: center;">
+                    Created by Ryan Li Jian Tang
+                </p>
+            </div>
+
+        </div>
+
+    </div> <!-- end page -->
+
+    <script type="text/javascript">
+        var cloropleth_map = "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/unemployment_rate_map.vg.json";
+        var poverty = "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/poverty_across_countries.vg.json";
+        var country_ranking = "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/country_ranking.vg.json";
+        var cost_living = "https://raw.githubusercontent.com/rtan0053/FIT3179/main/js/cost_living.vg.json"
+
+        vegaEmbed('#country_ranking', country_ranking, { "actions": false }).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        vegaEmbed('#cloropleth_map', cloropleth_map, { "actions": false }).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);;
+
+        vegaEmbed('#poverty', poverty, { "actions": false }).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        vegaEmbed('#cost_living', cost_living, { "actions": false }).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+</body>
+
+</html>

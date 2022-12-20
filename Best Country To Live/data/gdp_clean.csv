@@ -1,0 +1,4141 @@
+Country,Year,gdp
+"Afghanistan, Rep. of.",1999,0
+Albania,1999,3.444
+Algeria,1999,48.845
+Angola,1999,6.153
+Antigua and Barbuda,1999,0.652
+Argentina,1999,283.523
+Armenia,1999,1.845
+Australia,1999,401.782
+Austria,1999,213.39
+Azerbaijan,1999,4.581
+"Bahamas, The",1999,4.704
+Bahrain,1999,6.617
+Bangladesh,1999,46.529
+Barbados,1999,2.478
+Belarus,1999,12.104
+Belgium,1999,253.889
+Belize,1999,0.732
+Benin,1999,2.492
+Bhutan,1999,0.43
+Bolivia,1999,8.298
+Bosnia and Herzegovina,1999,4.995
+Botswana,1999,5.629
+Brazil,1999,586.922
+Brunei Darussalam,1999,4.6
+Bulgaria,1999,12.977
+Burkina Faso,1999,3.015
+Burundi,1999,0.808
+Cambodia,1999,3.516
+Cameroon,1999,10.424
+Canada,1999,661.345
+Cape Verde,1999,0.597
+Central African Republic,1999,1.039
+Chad,1999,1.537
+Chile,1999,72.995
+China,1999,"1,083.28"
+Colombia,1999,86.186
+Comoros,1999,0.223
+"Congo, Democratic Republic of",1999,4.319
+"Congo, Republic of",1999,2.354
+Costa Rica,1999,15.797
+Côte d'Ivoire,1999,12.573
+Croatia,1999,19.906
+Cyprus,1999,9.78
+Czech Republic,1999,60.192
+Denmark,1999,174.172
+Djibouti,1999,0.541
+Dominica,1999,0.265
+Dominican Republic,1999,17.601
+Ecuador,1999,16.674
+Egypt,1999,89.942
+El Salvador,1999,12.465
+Equatorial Guinea,1999,0.738
+Eritrea,1999,0.73
+Estonia,1999,5.571
+Ethiopia,1999,7.604
+Fiji,1999,1.868
+Finland,1999,130.948
+France,1999,"1,456.80"
+Gabon,1999,4.669
+"Gambia, The",1999,0.432
+Georgia,1999,2.803
+Germany,1999,"2,146.43"
+Ghana,1999,7.71
+Greece,1999,158.291
+Grenada,1999,0.38
+Guatemala,1999,18.316
+Guinea,1999,3.461
+Guinea-Bissau,1999,0.224
+Guyana,1999,0.696
+Haiti,1999,3.972
+Honduras,1999,5.374
+Hong Kong SAR,1999,163.288
+Hungary,1999,48.044
+Iceland,1999,8.681
+India,1999,440.76
+Indonesia,1999,154.705
+"Iran, Islamic Republic of",1999,104.656
+Ireland,1999,96.667
+Israel,1999,108.285
+Italy,1999,"1,202.40"
+Jamaica,1999,7.316
+Japan,1999,"4,384.27"
+Jordan,1999,8.149
+Kazakhstan,1999,16.955
+Kenya,1999,12.883
+Kiribati,1999,0.054
+Korea,1999,445.557
+Kuwait,1999,30.123
+Kyrgyz Republic,1999,1.267
+Lao People's Democratic Republic,1999,1.473
+Latvia,1999,7.289
+Lebanon,1999,17.01
+Lesotho,1999,0.919
+Liberia,1999,0.4
+Libya,1999,33.957
+Lithuania,1999,10.84
+Luxembourg,1999,21.216
+"Macedonia, Former Yugoslav Republic of",1999,3.675
+Madagascar,1999,3.723
+Malawi,1999,1.776
+Malaysia,1999,79.148
+Maldives,1999,0.589
+Mali,1999,2.921
+Malta,1999,3.646
+Mauritania,1999,1.195
+Mauritius,1999,4.193
+Mexico,1999,480.593
+Moldova,1999,1.171
+Mongolia,1999,0.906
+Morocco,1999,35.249
+Mozambique,1999,4.091
+Myanmar,1999,8.487
+Namibia,1999,3.384
+Nepal,1999,5.034
+Netherlands,1999,411.997
+New Zealand,1999,56.993
+Nicaragua,1999,3.74
+Niger,1999,2.021
+Nigeria,1999,37.331
+Norway,1999,159.093
+Oman,1999,15.711
+Pakistan,1999,71.248
+Panama,1999,11.456
+Papua New Guinea,1999,3.462
+Paraguay,1999,7.301
+Peru,1999,51.553
+Philippines,1999,76.157
+Poland,1999,167.942
+Portugal,1999,121.823
+Qatar,1999,12.393
+Romania,1999,35.729
+Russia,1999,195.907
+Rwanda,1999,1.909
+Samoa,1999,0.218
+São Tomé and Príncipe,1999,0.047
+Saudi Arabia,1999,161.172
+Senegal,1999,5.151
+Serbia,1999,0
+Seychelles,1999,0.623
+Sierra Leone,1999,0.669
+Singapore,1999,82.611
+Slovak Republic,1999,20.602
+Slovenia,1999,26.753
+Solomon Islands,1999,0.332
+South Africa,1999,133.105
+Spain,1999,618.691
+Sri Lanka,1999,15.657
+St. Kitts and Nevis,1999,0.305
+St. Lucia,1999,0.671
+St. Vincent and the Grenadines,1999,0.332
+Sudan,1999,10.723
+Suriname,1999,0.886
+Swaziland,1999,1.377
+Sweden,1999,253.881
+Switzerland,1999,265.23
+Syrian Arab Republic,1999,16.834
+Taiwan Province of China,1999,298.825
+Tajikistan,1999,1.087
+Tanzania,1999,8.635
+Thailand,1999,122.63
+"Timor-Leste, Dem. Rep. of",1999,0.27
+Togo,1999,1.529
+Tonga,1999,0.155
+Trinidad and Tobago,1999,6.808
+Tunisia,1999,20.76
+Turkey,1999,181.69
+Turkmenistan,1999,3.857
+Uganda,1999,6.008
+Ukraine,1999,31.569
+United Arab Emirates,1999,55.181
+United Kingdom,1999,"1,467.03"
+United States,1999,"9,268.43"
+Uruguay,1999,20.913
+Uzbekistan,1999,17.041
+Vanuatu,1999,0.251
+Venezuela,1999,97.977
+Vietnam,1999,28.684
+"Yemen, Republic of",1999,7.53
+Zambia,1999,3.132
+Zimbabwe,1999,5.963
+"Afghanistan, Rep. of.",2000,0
+Albania,2000,3.695
+Algeria,2000,54.749
+Angola,2000,9.135
+Antigua and Barbuda,2000,0.678
+Argentina,2000,284.204
+Armenia,2000,1.912
+Australia,2000,390.017
+Austria,2000,194.407
+Azerbaijan,2000,5.273
+"Bahamas, The",2000,5.004
+Bahrain,2000,7.966
+Bangladesh,2000,47.048
+Barbados,2000,2.559
+Belarus,2000,12.758
+Belgium,2000,232.934
+Belize,2000,0.832
+Benin,2000,2.383
+Bhutan,2000,0.46
+Bolivia,2000,8.412
+Bosnia and Herzegovina,2000,5.298
+Botswana,2000,6.193
+Brazil,2000,644.283
+Brunei Darussalam,2000,6.001
+Bulgaria,2000,12.639
+Burkina Faso,2000,2.611
+Burundi,2000,0.709
+Cambodia,2000,3.655
+Cameroon,2000,10.046
+Canada,2000,725.158
+Cape Verde,2000,0.539
+Central African Republic,2000,0.962
+Chad,2000,1.389
+Chile,2000,75.21
+China,2000,"1,198.48"
+Colombia,2000,83.786
+Comoros,2000,0.202
+"Congo, Democratic Republic of",2000,4.303
+"Congo, Republic of",2000,3.22
+Costa Rica,2000,15.947
+Côte d'Ivoire,2000,10.448
+Croatia,2000,18.427
+Cyprus,2000,9.317
+Czech Republic,2000,56.717
+Denmark,2000,160.533
+Djibouti,2000,0.556
+Dominica,2000,0.269
+Dominican Republic,2000,20.059
+Ecuador,2000,15.934
+Egypt,2000,99.155
+El Salvador,2000,13.134
+Equatorial Guinea,2000,1.231
+Eritrea,2000,0.638
+Estonia,2000,5.627
+Ethiopia,2000,7.9
+Fiji,2000,1.653
+Finland,2000,122.222
+France,2000,"1,333.04"
+Gabon,2000,5.096
+"Gambia, The",2000,0.421
+Georgia,2000,3.042
+Germany,2000,"1,905.80"
+Ghana,2000,4.977
+Greece,2000,146.549
+Grenada,2000,0.41
+Guatemala,2000,19.288
+Guinea,2000,3.112
+Guinea-Bissau,2000,0.216
+Guyana,2000,0.712
+Haiti,2000,3.514
+Honduras,2000,5.954
+Hong Kong SAR,2000,168.754
+Hungary,2000,47.958
+Iceland,2000,8.678
+India,2000,461.329
+Indonesia,2000,165.521
+"Iran, Islamic Republic of",2000,96.44
+Ireland,2000,96.609
+Israel,2000,121
+Italy,2000,"1,100.56"
+Jamaica,2000,7.467
+Japan,2000,"4,668.79"
+Jordan,2000,8.461
+Kazakhstan,2000,18.275
+Kenya,2000,12.316
+Kiribati,2000,0.047
+Korea,2000,511.961
+Kuwait,2000,37.721
+Kyrgyz Republic,2000,1.368
+Lao People's Democratic Republic,2000,1.735
+Latvia,2000,7.833
+Lebanon,2000,16.822
+Lesotho,2000,0.828
+Liberia,2000,0.529
+Libya,2000,36.125
+Lithuania,2000,11.418
+Luxembourg,2000,20.329
+"Macedonia, Former Yugoslav Republic of",2000,3.583
+Madagascar,2000,3.866
+Malawi,2000,1.743
+Malaysia,2000,90.32
+Maldives,2000,0.624
+Mali,2000,2.674
+Malta,2000,3.571
+Mauritania,2000,1.081
+Mauritius,2000,4.522
+Mexico,2000,580.791
+Moldova,2000,1.289
+Mongolia,2000,0.947
+Morocco,2000,33.335
+Mozambique,2000,3.719
+Myanmar,2000,8.905
+Namibia,2000,3.416
+Nepal,2000,5.494
+Netherlands,2000,386.204
+New Zealand,2000,52.414
+Nicaragua,2000,3.939
+Niger,2000,1.803
+Nigeria,2000,45.737
+Norway,2000,168.671
+Oman,2000,19.868
+Pakistan,2000,74.08
+Panama,2000,11.621
+Papua New Guinea,2000,3.528
+Paraguay,2000,7.095
+Peru,2000,53.323
+Philippines,2000,75.912
+Poland,2000,171.319
+Portugal,2000,112.98
+Qatar,2000,17.76
+Romania,2000,37.06
+Russia,2000,259.702
+Rwanda,2000,1.794
+Samoa,2000,0.22
+São Tomé and Príncipe,2000,0.046
+Saudi Arabia,2000,188.693
+Senegal,2000,4.693
+Serbia,2000,8.963
+Seychelles,2000,0.615
+Sierra Leone,2000,0.636
+Singapore,2000,92.717
+Slovak Republic,2000,20.374
+Slovenia,2000,22.688
+Solomon Islands,2000,0.299
+South Africa,2000,132.964
+Spain,2000,582.377
+Sri Lanka,2000,16.332
+St. Kitts and Nevis,2000,0.33
+St. Lucia,2000,0.685
+St. Vincent and the Grenadines,2000,0.335
+Sudan,2000,12.365
+Suriname,2000,0.89
+Swaziland,2000,1.39
+Sweden,2000,242.792
+Switzerland,2000,246.322
+Syrian Arab Republic,2000,19.861
+Taiwan Province of China,2000,321.374
+Tajikistan,2000,0.991
+Tanzania,2000,9.079
+Thailand,2000,122.725
+"Timor-Leste, Dem. Rep. of",2000,0.316
+Togo,2000,1.299
+Tonga,2000,0.158
+Trinidad and Tobago,2000,8.157
+Tunisia,2000,19.456
+Turkey,2000,198.23
+Turkmenistan,2000,5.022
+Uganda,2000,5.91
+Ukraine,2000,31.262
+United Arab Emirates,2000,70.221
+United Kingdom,2000,"1,445.19"
+United States,2000,"9,816.98"
+Uruguay,2000,20.086
+Uzbekistan,2000,13.717
+Vanuatu,2000,0.245
+Venezuela,2000,117.153
+Vietnam,2000,31.196
+"Yemen, Republic of",2000,9.561
+Zambia,2000,3.238
+Zimbabwe,2000,8.136
+"Afghanistan, Rep. of.",2001,0
+Albania,2001,4.096
+Algeria,2001,55.181
+Angola,2001,8.936
+Antigua and Barbuda,2001,0.71
+Argentina,2001,268.697
+Armenia,2001,2.118
+Australia,2001,368.191
+Austria,2001,193.345
+Azerbaijan,2001,5.708
+"Bahamas, The",2001,5.131
+Bahrain,2001,7.927
+Bangladesh,2001,47.194
+Barbados,2001,2.554
+Belarus,2001,12.421
+Belgium,2001,231.928
+Belize,2001,0.871
+Benin,2001,2.502
+Bhutan,2001,0.493
+Bolivia,2001,8.154
+Bosnia and Herzegovina,2001,5.558
+Botswana,2001,6.06
+Brazil,2001,554.41
+Brunei Darussalam,2001,5.601
+Bulgaria,2001,13.605
+Burkina Faso,2001,2.815
+Burundi,2001,0.662
+Cambodia,2001,3.97
+Cameroon,2001,9.497
+Canada,2001,715.632
+Cape Verde,2001,0.563
+Central African Republic,2001,0.968
+Chad,2001,1.711
+Chile,2001,68.568
+China,2001,"1,324.81"
+Colombia,2001,81.99
+Comoros,2001,0.22
+"Congo, Democratic Republic of",2001,5.155
+"Congo, Republic of",2001,2.794
+Costa Rica,2001,16.404
+Côte d'Ivoire,2001,10.554
+Croatia,2001,19.83
+Cyprus,2001,9.678
+Czech Republic,2001,61.843
+Denmark,2001,160.583
+Djibouti,2001,0.577
+Dominica,2001,0.264
+Dominican Republic,2001,21.943
+Ecuador,2001,21.25
+Egypt,2001,95.399
+El Salvador,2001,13.813
+Equatorial Guinea,2001,1.766
+Eritrea,2001,0.675
+Estonia,2001,6.192
+Ethiopia,2001,7.879
+Fiji,2001,1.662
+Finland,2001,125.269
+France,2001,"1,341.39"
+Gabon,2001,4.709
+"Gambia, The",2001,0.418
+Georgia,2001,3.205
+Germany,2001,"1,892.60"
+Ghana,2001,5.309
+Greece,2001,150.459
+Grenada,2001,0.395
+Guatemala,2001,21.043
+Guinea,2001,3.039
+Guinea-Bissau,2001,0.199
+Guyana,2001,0.695
+Haiti,2001,3.416
+Honduras,2001,6.321
+Hong Kong SAR,2001,166.541
+Hungary,2001,53.317
+Iceland,2001,7.894
+India,2001,473.867
+Indonesia,2001,160.657
+"Iran, Islamic Republic of",2001,115.435
+Ireland,2001,104.57
+Israel,2001,118.659
+Italy,2001,"1,118.32"
+Jamaica,2001,7.894
+Japan,2001,"4,097.96"
+Jordan,2001,8.975
+Kazakhstan,2001,22.135
+Kenya,2001,13.059
+Kiribati,2001,0.045
+Korea,2001,481.979
+Kuwait,2001,34.901
+Kyrgyz Republic,2001,1.525
+Lao People's Democratic Republic,2001,1.762
+Latvia,2001,8.313
+Lebanon,2001,17.212
+Lesotho,2001,0.699
+Liberia,2001,0.515
+Libya,2001,32.199
+Lithuania,2001,12.146
+Luxembourg,2001,20.216
+"Macedonia, Former Yugoslav Republic of",2001,3.437
+Madagascar,2001,4.527
+Malawi,2001,1.717
+Malaysia,2001,88.001
+Maldives,2001,0.625
+Mali,2001,3.018
+Malta,2001,3.632
+Mauritania,2001,1.122
+Mauritius,2001,4.536
+Mexico,2001,621.859
+Moldova,2001,1.48
+Mongolia,2001,1.018
+Morocco,2001,33.901
+Mozambique,2001,3.697
+Myanmar,2001,6.478
+Namibia,2001,3.218
+Nepal,2001,5.596
+Netherlands,2001,400.998
+New Zealand,2001,51.416
+Nicaragua,2001,4.102
+Niger,2001,1.947
+Nigeria,2001,47.683
+Norway,2001,170.982
+Oman,2001,19.949
+Pakistan,2001,71.457
+Panama,2001,11.808
+Papua New Guinea,2001,3.082
+Paraguay,2001,6.446
+Peru,2001,53.933
+Philippines,2001,71.216
+Poland,2001,190.333
+Portugal,2001,115.812
+Qatar,2001,17.538
+Romania,2001,40.188
+Russia,2001,306.583
+Rwanda,2001,1.704
+Samoa,2001,0.232
+São Tomé and Príncipe,2001,0.048
+Saudi Arabia,2001,183.257
+Senegal,2001,4.882
+Serbia,2001,11.759
+Seychelles,2001,0.622
+Sierra Leone,2001,0.806
+Singapore,2001,85.485
+Slovak Republic,2001,21.108
+Slovenia,2001,21.841
+Solomon Islands,2001,0.274
+South Africa,2001,118.563
+Spain,2001,609.631
+Sri Lanka,2001,15.746
+St. Kitts and Nevis,2001,0.345
+St. Lucia,2001,0.664
+St. Vincent and the Grenadines,2001,0.345
+Sudan,2001,13.38
+Suriname,2001,0.764
+Swaziland,2001,1.261
+Sweden,2001,221.879
+Switzerland,2001,250.57
+Syrian Arab Republic,2001,21.017
+Taiwan Province of China,2001,291.889
+Tajikistan,2001,1.057
+Tanzania,2001,9.443
+Thailand,2001,115.536
+"Timor-Leste, Dem. Rep. of",2001,0.368
+Togo,2001,1.334
+Tonga,2001,0.142
+Trinidad and Tobago,2001,9.505
+Tunisia,2001,19.988
+Turkey,2001,143.096
+Turkmenistan,2001,6.933
+Uganda,2001,5.65
+Ukraine,2001,38.009
+United Arab Emirates,2001,68.677
+United Kingdom,2001,"1,435.63"
+United States,2001,"10,127.95"
+Uruguay,2001,18.561
+Uzbekistan,2001,11.632
+Vanuatu,2001,0.235
+Venezuela,2001,122.872
+Vietnam,2001,32.504
+"Yemen, Republic of",2001,9.533
+Zambia,2001,3.64
+Zimbabwe,2001,12.883
+"Afghanistan, Rep. of.",2002,4.084
+Albania,2002,4.456
+Algeria,2002,57.053
+Angola,2002,11.386
+Antigua and Barbuda,2002,0.718
+Argentina,2002,97.732
+Armenia,2002,2.376
+Australia,2002,412.901
+Austria,2002,208.566
+Azerbaijan,2002,6.236
+"Bahamas, The",2002,5.389
+Bahrain,2002,8.446
+Bangladesh,2002,49.56
+Barbados,2002,2.476
+Belarus,2002,14.654
+Belgium,2002,252.66
+Belize,2002,0.932
+Benin,2002,2.817
+Bhutan,2002,0.545
+Bolivia,2002,7.917
+Bosnia and Herzegovina,2002,6.184
+Botswana,2002,5.959
+Brazil,2002,505.712
+Brunei Darussalam,2002,5.843
+Bulgaria,2002,15.614
+Burkina Faso,2002,3.301
+Burundi,2002,0.628
+Cambodia,2002,4.28
+Cameroon,2002,10.888
+Canada,2002,734.773
+Cape Verde,2002,0.621
+Central African Republic,2002,1.045
+Chad,2002,1.995
+Chile,2002,67.266
+China,2002,"1,453.84"
+Colombia,2002,81.122
+Comoros,2002,0.252
+"Congo, Democratic Republic of",2002,5.539
+"Congo, Republic of",2002,3.02
+Costa Rica,2002,16.879
+Côte d'Ivoire,2002,11.527
+Croatia,2002,23.032
+Cyprus,2002,10.543
+Czech Republic,2002,75.276
+Denmark,2002,174.42
+Djibouti,2002,0.596
+Dominica,2002,0.253
+Dominican Republic,2002,21.625
+Ecuador,2002,24.899
+Egypt,2002,87.506
+El Salvador,2002,14.307
+Equatorial Guinea,2002,2.209
+Eritrea,2002,0.635
+Estonia,2002,7.306
+Ethiopia,2002,7.428
+Fiji,2002,1.811
+Finland,2002,135.972
+France,2002,"1,463.90"
+Gabon,2002,4.97
+"Gambia, The",2002,0.37
+Georgia,2002,3.395
+Germany,2002,"2,024.06"
+Ghana,2002,6.16
+Greece,2002,170.943
+Grenada,2002,0.408
+Guatemala,2002,23.309
+Guinea,2002,3.21
+Guinea-Bissau,2002,0.204
+Guyana,2002,0.723
+Haiti,2002,3.097
+Honduras,2002,6.502
+Hong Kong SAR,2002,163.709
+Hungary,2002,66.71
+Iceland,2002,8.825
+India,2002,494.848
+Indonesia,2002,195.593
+"Iran, Islamic Republic of",2002,116.421
+Ireland,2002,122.724
+Israel,2002,109.382
+Italy,2002,"1,223.24"
+Jamaica,2002,8.08
+Japan,2002,"3,925.11"
+Jordan,2002,9.582
+Kazakhstan,2002,24.599
+Kenya,2002,13.191
+Kiribati,2002,0.049
+Korea,2002,547.856
+Kuwait,2002,38.14
+Kyrgyz Republic,2002,1.606
+Lao People's Democratic Republic,2002,1.83
+Latvia,2002,9.315
+Lebanon,2002,18.717
+Lesotho,2002,0.759
+Liberia,2002,0.543
+Libya,2002,19.832
+Lithuania,2002,14.134
+Luxembourg,2002,22.743
+"Macedonia, Former Yugoslav Republic of",2002,3.769
+Madagascar,2002,4.557
+Malawi,2002,1.935
+Malaysia,2002,95.266
+Maldives,2002,0.641
+Mali,2002,3.343
+Malta,2002,3.882
+Mauritania,2002,1.15
+Mauritius,2002,4.515
+Mexico,2002,648.629
+Moldova,2002,1.662
+Mongolia,2002,1.121
+Morocco,2002,36.093
+Mozambique,2002,4.094
+Myanmar,2002,6.778
+Namibia,2002,3.128
+Nepal,2002,5.568
+Netherlands,2002,439.357
+New Zealand,2002,59.901
+Nicaragua,2002,4.025
+Niger,2002,2.177
+Nigeria,2002,46.09
+Norway,2002,193.175
+Oman,2002,20.325
+Pakistan,2002,71.854
+Panama,2002,12.272
+Papua New Guinea,2002,2.902
+Paraguay,2002,5.091
+Peru,2002,57.04
+Philippines,2002,76.814
+Poland,2002,198.029
+Portugal,2002,127.906
+Qatar,2002,19.363
+Romania,2002,45.825
+Russia,2002,345.486
+Rwanda,2002,1.732
+Samoa,2002,0.256
+São Tomé and Príncipe,2002,0.054
+Saudi Arabia,2002,188.803
+Senegal,2002,5.352
+Serbia,2002,15.831
+Seychelles,2002,0.698
+Sierra Leone,2002,0.936
+Singapore,2002,88.068
+Slovak Republic,2002,24.522
+Slovenia,2002,23.664
+Solomon Islands,2002,0.228
+South Africa,2002,111.13
+Spain,2002,688.676
+Sri Lanka,2002,16.536
+St. Kitts and Nevis,2002,0.355
+St. Lucia,2002,0.682
+St. Vincent and the Grenadines,2002,0.365
+Sudan,2002,14.976
+Suriname,2002,1.08
+Swaziland,2002,1.194
+Sweden,2002,244.314
+Switzerland,2002,277.113
+Syrian Arab Republic,2002,22.78
+Taiwan Province of China,2002,294.876
+Tajikistan,2002,1.212
+Tanzania,2002,9.792
+Thailand,2002,126.877
+"Timor-Leste, Dem. Rep. of",2002,0.343
+Togo,2002,1.479
+Tonga,2002,0.143
+Trinidad and Tobago,2002,9.709
+Tunisia,2002,21.054
+Turkey,2002,182.973
+Turkmenistan,2002,8.7
+Uganda,2002,5.835
+Ukraine,2002,42.393
+United Arab Emirates,2002,75.285
+United Kingdom,2002,"1,574.47"
+United States,2002,"10,469.60"
+Uruguay,2002,12.089
+Uzbekistan,2002,9.657
+Vanuatu,2002,0.23
+Venezuela,2002,92.889
+Vietnam,2002,35.148
+"Yemen, Republic of",2002,9.985
+Zambia,2002,3.775
+Zimbabwe,2002,30.856
+"Afghanistan, Rep. of.",2003,4.585
+Albania,2003,5.6
+Algeria,2003,68.013
+Angola,2003,13.956
+Antigua and Barbuda,2003,0.754
+Argentina,2003,127.643
+Armenia,2003,2.807
+Australia,2003,527.588
+Austria,2003,255.842
+Azerbaijan,2003,7.276
+"Bahamas, The",2003,5.503
+Bahrain,2003,9.734
+Bangladesh,2003,54.476
+Barbados,2003,2.695
+Belarus,2003,17.823
+Belgium,2003,310.514
+Belize,2003,0.988
+Benin,2003,3.565
+Bhutan,2003,0.611
+Bolivia,2003,8.102
+Bosnia and Herzegovina,2003,7.801
+Botswana,2003,8.318
+Brazil,2003,552.239
+Brunei Darussalam,2003,6.557
+Bulgaria,2003,19.974
+Burkina Faso,2003,4.279
+Burundi,2003,0.595
+Cambodia,2003,4.585
+Cameroon,2003,13.63
+Canada,2003,868.485
+Cape Verde,2003,0.814
+Central African Republic,2003,1.198
+Chad,2003,2.728
+Chile,2003,73.991
+China,2003,"1,640.97"
+Colombia,2003,79.459
+Comoros,2003,0.325
+"Congo, Democratic Republic of",2003,5.681
+"Congo, Republic of",2003,3.571
+Costa Rica,2003,17.491
+Côte d'Ivoire,2003,13.764
+Croatia,2003,29.612
+Cyprus,2003,13.29
+Czech Republic,2003,91.358
+Denmark,2003,212.981
+Djibouti,2003,0.628
+Dominica,2003,0.258
+Dominican Republic,2003,16.459
+Ecuador,2003,28.636
+Egypt,2003,81.384
+El Salvador,2003,15.047
+Equatorial Guinea,2003,2.99
+Eritrea,2003,0.585
+Estonia,2003,9.592
+Ethiopia,2003,8.03
+Fiji,2003,2.239
+Finland,2003,165.031
+France,2003,"1,804.99"
+Gabon,2003,6.08
+"Gambia, The",2003,0.353
+Georgia,2003,3.992
+Germany,2003,"2,444.28"
+Ghana,2003,7.624
+Greece,2003,222.323
+Grenada,2003,0.444
+Guatemala,2003,24.898
+Guinea,2003,3.624
+Guinea-Bissau,2003,0.236
+Guyana,2003,0.745
+Haiti,2003,2.684
+Honduras,2003,6.86
+Hong Kong SAR,2003,158.473
+Hungary,2003,84.419
+Iceland,2003,10.838
+India,2003,576.547
+Indonesia,2003,234.834
+"Iran, Islamic Republic of",2003,133.969
+Ireland,2003,157.119
+Israel,2003,115.26
+Italy,2003,"1,510.06"
+Jamaica,2003,7.814
+Japan,2003,"4,234.92"
+Jordan,2003,10.196
+Kazakhstan,2003,30.86
+Kenya,2003,15.036
+Kiribati,2003,0.058
+Korea,2003,608.337
+Kuwait,2003,47.835
+Kyrgyz Republic,2003,1.919
+Lao People's Democratic Republic,2003,2.149
+Latvia,2003,11.186
+Lebanon,2003,19.802
+Lesotho,2003,1.118
+Liberia,2003,0.41
+Libya,2003,24.015
+Lithuania,2003,18.558
+Luxembourg,2003,28.957
+"Macedonia, Former Yugoslav Republic of",2003,4.631
+Madagascar,2003,5.464
+Malawi,2003,1.765
+Malaysia,2003,103.992
+Maldives,2003,0.692
+Mali,2003,4.429
+Malta,2003,4.92
+Mauritania,2003,1.285
+Mauritius,2003,5.159
+Mexico,2003,638.745
+Moldova,2003,1.981
+Mongolia,2003,1.285
+Morocco,2003,43.813
+Mozambique,2003,4.789
+Myanmar,2003,10.467
+Namibia,2003,4.474
+Nepal,2003,5.873
+Netherlands,2003,539.343
+New Zealand,2003,79.343
+Nicaragua,2003,4.1
+Niger,2003,2.736
+Nigeria,2003,57.564
+Norway,2003,225.307
+Oman,2003,21.784
+Pakistan,2003,82.592
+Panama,2003,12.933
+Papua New Guinea,2003,3.503
+Paraguay,2003,5.552
+Peru,2003,61.49
+Philippines,2003,79.634
+Poland,2003,216.545
+Portugal,2003,156.712
+Qatar,2003,23.534
+Romania,2003,59.506
+Russia,2003,431.429
+Rwanda,2003,1.684
+Samoa,2003,0.284
+São Tomé and Príncipe,2003,0.059
+Saudi Arabia,2003,214.859
+Senegal,2003,6.828
+Serbia,2003,20.34
+Seychelles,2003,0.706
+Sierra Leone,2003,0.991
+Singapore,2003,92.35
+Slovak Republic,2003,33.005
+Slovenia,2003,28.819
+Solomon Islands,2003,0.231
+South Africa,2003,166.655
+Spain,2003,884.908
+Sri Lanka,2003,18.246
+St. Kitts and Nevis,2003,0.366
+St. Lucia,2003,0.716
+St. Vincent and the Grenadines,2003,0.382
+Sudan,2003,17.78
+Suriname,2003,1.271
+Swaziland,2003,1.907
+Sweden,2003,304.854
+Switzerland,2003,323.065
+Syrian Arab Republic,2003,22.719
+Taiwan Province of China,2003,299.606
+Tajikistan,2003,1.555
+Tanzania,2003,10.276
+Thailand,2003,142.64
+"Timor-Leste, Dem. Rep. of",2003,0.336
+Togo,2003,1.677
+Tonga,2003,0.159
+Trinidad and Tobago,2003,12.022
+Tunisia,2003,25
+Turkey,2003,240.596
+Turkmenistan,2003,11.424
+Uganda,2003,6.243
+Ukraine,2003,50.133
+United Arab Emirates,2003,88.579
+United Kingdom,2003,"1,814.64"
+United States,2003,"10,960.75"
+Uruguay,2003,11.211
+Uzbekistan,2003,10.129
+Vanuatu,2003,0.28
+Venezuela,2003,83.442
+Vietnam,2003,39.63
+"Yemen, Republic of",2003,11.869
+Zambia,2003,4.326
+Zimbabwe,2003,10.515
+"Afghanistan, Rep. of.",2004,5.971
+Albania,2004,7.452
+Algeria,2004,85.016
+Angola,2004,19.8
+Antigua and Barbuda,2004,0.818
+Argentina,2004,151.958
+Armenia,2004,3.573
+Australia,2004,639.356
+Austria,2004,293.194
+Azerbaijan,2004,8.682
+"Bahamas, The",2004,5.661
+Bahrain,2004,11.18
+Bangladesh,2004,59.12
+Barbados,2004,2.817
+Belarus,2004,23.141
+Belgium,2004,359.155
+Belize,2004,1.055
+Benin,2004,4.053
+Bhutan,2004,0.709
+Bolivia,2004,8.749
+Bosnia and Herzegovina,2004,9.331
+Botswana,2004,9.831
+Brazil,2004,663.552
+Brunei Darussalam,2004,7.872
+Bulgaria,2004,24.331
+Burkina Faso,2004,5.114
+Burundi,2004,0.664
+Cambodia,2004,5.307
+Cameroon,2004,15.784
+Canada,2004,993.908
+Cape Verde,2004,0.925
+Central African Republic,2004,1.309
+Chad,2004,4.421
+Chile,2004,95.839
+China,2004,"1,931.64"
+Colombia,2004,98.059
+Comoros,2004,0.363
+"Congo, Democratic Republic of",2004,6.539
+"Congo, Republic of",2004,4.349
+Costa Rica,2004,18.567
+Côte d'Ivoire,2004,15.501
+Croatia,2004,35.261
+Cyprus,2004,15.789
+Czech Republic,2004,108.214
+Denmark,2004,243.85
+Djibouti,2004,0.666
+Dominica,2004,0.272
+Dominican Republic,2004,18.435
+Ecuador,2004,32.636
+Egypt,2004,78.802
+El Salvador,2004,15.822
+Equatorial Guinea,2004,4.85
+Eritrea,2004,0.635
+Estonia,2004,11.646
+Ethiopia,2004,9.485
+Fiji,2004,2.627
+Finland,2004,189.411
+France,2004,"2,059.71"
+Gabon,2004,7.188
+"Gambia, The",2004,0.401
+Georgia,2004,5.111
+Germany,2004,"2,744.22"
+Ghana,2004,8.872
+Greece,2004,264.493
+Grenada,2004,0.426
+Guatemala,2004,27.27
+Guinea,2004,3.97
+Guinea-Bissau,2004,0.27
+Guyana,2004,0.786
+Haiti,2004,3.531
+Honduras,2004,7.454
+Hong Kong SAR,2004,165.823
+Hungary,2004,102.159
+Iceland,2004,13.063
+India,2004,667.342
+Indonesia,2004,257.005
+"Iran, Islamic Republic of",2004,161.261
+Ireland,2004,183.473
+Israel,2004,122.503
+Italy,2004,"1,728.86"
+Jamaica,2004,8.801
+Japan,2004,"4,608.14"
+Jordan,2004,11.398
+Kazakhstan,2004,43.152
+Kenya,2004,16.199
+Kiribati,2004,0.058
+Korea,2004,681.227
+Kuwait,2004,59.268
+Kyrgyz Republic,2004,2.215
+Lao People's Democratic Republic,2004,2.508
+Latvia,2004,13.737
+Lebanon,2004,21.369
+Lesotho,2004,1.392
+Liberia,2004,0.46
+Libya,2004,30.475
+Lithuania,2004,22.508
+Luxembourg,2004,33.564
+"Macedonia, Former Yugoslav Republic of",2004,5.377
+Madagascar,2004,4.359
+Malawi,2004,1.903
+Malaysia,2004,118.461
+Maldives,2004,0.806
+Mali,2004,4.944
+Malta,2004,5.428
+Mauritania,2004,1.495
+Mauritius,2004,5.93
+Mexico,2004,683.486
+Moldova,2004,2.598
+Mongolia,2004,1.625
+Morocco,2004,50.031
+Mozambique,2004,5.913
+Myanmar,2004,10.786
+Namibia,2004,5.61
+Nepal,2004,6.757
+Netherlands,2004,609.038
+New Zealand,2004,97.646
+Nicaragua,2004,4.496
+Niger,2004,2.948
+Nigeria,2004,71.533
+Norway,2004,258.986
+Oman,2004,24.749
+Pakistan,2004,98.094
+Panama,2004,14.179
+Papua New Guinea,2004,3.514
+Paraguay,2004,6.95
+Peru,2004,69.663
+Philippines,2004,86.703
+Poland,2004,252.668
+Portugal,2004,179.377
+Qatar,2004,31.734
+Romania,2004,75.487
+Russia,2004,591.861
+Rwanda,2004,1.835
+Samoa,2004,0.309
+São Tomé and Príncipe,2004,0.064
+Saudi Arabia,2004,250.673
+Senegal,2004,7.958
+Serbia,2004,24.518
+Seychelles,2004,0.7
+Sierra Leone,2004,1.073
+Singapore,2004,107.405
+Slovak Republic,2004,42.015
+Slovenia,2004,32.738
+Solomon Islands,2004,0.265
+South Africa,2004,216.772
+Spain,2004,"1,044.51"
+Sri Lanka,2004,20.055
+St. Kitts and Nevis,2004,0.406
+St. Lucia,2004,0.763
+St. Vincent and the Grenadines,2004,0.408
+Sudan,2004,21.691
+Suriname,2004,1.493
+Swaziland,2004,2.386
+Sweden,2004,349.557
+Switzerland,2004,360.152
+Syrian Arab Republic,2004,24.703
+Taiwan Province of China,2004,322.299
+Tajikistan,2004,2.073
+Tanzania,2004,11.339
+Thailand,2004,161.349
+"Timor-Leste, Dem. Rep. of",2004,0.339
+Togo,2004,1.94
+Tonga,2004,0.182
+Trinidad and Tobago,2004,13.527
+Tunisia,2004,28.129
+Turkey,2004,302.561
+Turkmenistan,2004,14.196
+Uganda,2004,6.817
+Ukraine,2004,64.883
+United Arab Emirates,2004,103.784
+United Kingdom,2004,"2,155.16"
+United States,2004,"11,712.48"
+Uruguay,2004,13.268
+Uzbekistan,2004,12.001
+Vanuatu,2004,0.33
+Venezuela,2004,112.8
+Vietnam,2004,45.548
+"Yemen, Republic of",2004,13.565
+Zambia,2004,5.44
+Zimbabwe,2004,4.7
+"Afghanistan, Rep. of.",2005,7.309
+Albania,2005,8.376
+Algeria,2005,102.38
+Angola,2005,30.632
+Antigua and Barbuda,2005,0.875
+Argentina,2005,181.549
+Armenia,2005,4.903
+Australia,2005,712.436
+Austria,2005,305.338
+Azerbaijan,2005,12.561
+"Bahamas, The",2005,5.87
+Bahrain,2005,13.378
+Bangladesh,2005,61.28
+Barbados,2005,3.061
+Belarus,2005,30.131
+Belgium,2005,372.726
+Belize,2005,1.111
+Benin,2005,4.406
+Bhutan,2005,0.828
+Bolivia,2005,9.358
+Bosnia and Herzegovina,2005,10.058
+Botswana,2005,10.195
+Brazil,2005,882.043
+Brunei Darussalam,2005,9.531
+Bulgaria,2005,26.719
+Burkina Faso,2005,5.624
+Burundi,2005,0.801
+Cambodia,2005,6.233
+Cameroon,2005,16.88
+Canada,2005,"1,132.44"
+Cape Verde,2005,0.999
+Central African Republic,2005,1.376
+Chad,2005,5.896
+Chile,2005,118.985
+China,2005,"2,243.69"
+Colombia,2005,123.085
+Comoros,2005,0.388
+"Congo, Democratic Republic of",2005,7.096
+"Congo, Republic of",2005,5.981
+Costa Rica,2005,19.937
+Côte d'Ivoire,2005,16.373
+Croatia,2005,38.51
+Cyprus,2005,16.958
+Czech Republic,2005,123.981
+Denmark,2005,259.217
+Djibouti,2005,0.709
+Dominica,2005,0.285
+Dominican Republic,2005,29.092
+Ecuador,2005,36.489
+Egypt,2005,89.794
+El Salvador,2005,16.974
+Equatorial Guinea,2005,7.477
+Eritrea,2005,0.961
+Estonia,2005,13.753
+Ethiopia,2005,11.373
+Fiji,2005,2.816
+Finland,2005,195.785
+France,2005,"2,127.17"
+Gabon,2005,8.681
+"Gambia, The",2005,0.461
+Georgia,2005,6.393
+Germany,2005,"2,791.74"
+Ghana,2005,10.72
+Greece,2005,284.226
+Grenada,2005,0.504
+Guatemala,2005,31.789
+Guinea,2005,3.331
+Guinea-Bissau,2005,0.302
+Guyana,2005,0.818
+Haiti,2005,3.983
+Honduras,2005,8.294
+Hong Kong SAR,2005,177.784
+Hungary,2005,111.568
+Iceland,2005,16.081
+India,2005,780.784
+Indonesia,2005,286.957
+"Iran, Islamic Republic of",2005,188.479
+Ireland,2005,200.769
+Israel,2005,129.841
+Italy,2005,"1,772.77"
+Jamaica,2005,9.398
+Japan,2005,"4,557.12"
+Jordan,2005,12.712
+Kazakhstan,2005,57.124
+Kenya,2005,18.73
+Kiribati,2005,0.056
+Korea,2005,791.572
+Kuwait,2005,80.78
+Kyrgyz Republic,2005,2.46
+Lao People's Democratic Republic,2005,2.887
+Latvia,2005,15.826
+Lebanon,2005,21.428
+Lesotho,2005,1.491
+Liberia,2005,0.529
+Libya,2005,41.685
+Lithuania,2005,25.667
+Luxembourg,2005,36.621
+"Macedonia, Former Yugoslav Republic of",2005,5.775
+Madagascar,2005,5.034
+Malawi,2005,2.076
+Malaysia,2005,130.835
+Maldives,2005,0.795
+Mali,2005,5.412
+Malta,2005,5.667
+Mauritania,2005,1.857
+Mauritius,2005,6.206
+Mexico,2005,767.69
+Moldova,2005,2.988
+Mongolia,2005,2.094
+Morocco,2005,51.621
+Mozambique,2005,6.636
+Myanmar,2005,12.151
+Namibia,2005,6.061
+Nepal,2005,7.515
+Netherlands,2005,629.911
+New Zealand,2005,108.417
+Nicaragua,2005,4.91
+Niger,2005,3.403
+Nigeria,2005,98.564
+Norway,2005,301.735
+Oman,2005,30.835
+Pakistan,2005,110.97
+Panama,2005,15.483
+Papua New Guinea,2005,4.011
+Paraguay,2005,7.473
+Peru,2005,79.394
+Philippines,2005,98.371
+Poland,2005,303.161
+Portugal,2005,185.644
+Qatar,2005,42.463
+Romania,2005,98.566
+Russia,2005,763.878
+Rwanda,2005,2.153
+Samoa,2005,0.34
+São Tomé and Príncipe,2005,0.072
+Saudi Arabia,2005,309.945
+Senegal,2005,8.615
+Serbia,2005,26.232
+Seychelles,2005,0.723
+Sierra Leone,2005,1.215
+Singapore,2005,116.704
+Slovak Republic,2005,47.428
+Slovenia,2005,34.407
+Solomon Islands,2005,0.294
+South Africa,2005,241.933
+Spain,2005,"1,127.98"
+Sri Lanka,2005,23.534
+St. Kitts and Nevis,2005,0.442
+St. Lucia,2005,0.882
+St. Vincent and the Grenadines,2005,0.43
+Sudan,2005,27.895
+Suriname,2005,1.778
+Swaziland,2005,2.609
+Sweden,2005,358.481
+Switzerland,2005,366.514
+Syrian Arab Republic,2005,27.369
+Taiwan Province of China,2005,346.651
+Tajikistan,2005,2.311
+Tanzania,2005,12.607
+Thailand,2005,176.222
+"Timor-Leste, Dem. Rep. of",2005,0.35
+Togo,2005,2.112
+Tonga,2005,0.215
+Trinidad and Tobago,2005,16.212
+Tunisia,2005,28.959
+Turkey,2005,362.461
+Turkmenistan,2005,17.174
+Uganda,2005,8.734
+Ukraine,2005,86.044
+United Arab Emirates,2005,130.256
+United Kingdom,2005,"2,230.61"
+United States,2005,"12,455.83"
+Uruguay,2005,16.878
+Uzbekistan,2005,13.67
+Vanuatu,2005,0.368
+Venezuela,2005,143.443
+Vietnam,2005,53.053
+"Yemen, Republic of",2005,15.193
+Zambia,2005,7.271
+Zimbabwe,2005,4.552
+"Afghanistan, Rep. of.",2006,8.399
+Albania,2006,9.133
+Algeria,2006,114.322
+Angola,2006,43.759
+Antigua and Barbuda,2006,0.962
+Argentina,2006,212.702
+Armenia,2006,6.41
+Australia,2006,754.816
+Austria,2006,321.934
+Azerbaijan,2006,19.817
+"Bahamas, The",2006,6.223
+Bahrain,2006,16.065
+Bangladesh,2006,65.216
+Barbados,2006,3.386
+Belarus,2006,36.944
+Belgium,2006,393.59
+Belize,2006,1.213
+Benin,2006,4.76
+Bhutan,2006,0.983
+Bolivia,2006,10.828
+Bosnia and Herzegovina,2006,11.396
+Botswana,2006,10.808
+Brazil,2006,"1,067.71"
+Brunei Darussalam,2006,11.438
+Bulgaria,2006,30.608
+Burkina Faso,2006,6.055
+Burundi,2006,0.908
+Cambodia,2006,7.096
+Cameroon,2006,18.372
+Canada,2006,"1,269.10"
+Cape Verde,2006,1.15
+Central African Republic,2006,1.488
+Chad,2006,6.547
+Chile,2006,145.205
+China,2006,"2,630.11"
+Colombia,2006,135.075
+Comoros,2006,0.402
+"Congo, Democratic Republic of",2006,8.543
+"Congo, Republic of",2006,7.399
+Costa Rica,2006,21.384
+Côte d'Ivoire,2006,17.339
+Croatia,2006,42.456
+Cyprus,2006,18.235
+Czech Republic,2006,141.801
+Denmark,2006,276.611
+Djibouti,2006,0.768
+Dominica,2006,0.3
+Dominican Republic,2006,31.6
+Ecuador,2006,40.447
+Egypt,2006,107.375
+El Salvador,2006,18.341
+Equatorial Guinea,2006,9.135
+Eritrea,2006,1.16
+Estonia,2006,16.41
+Ethiopia,2006,13.315
+Fiji,2006,2.977
+Finland,2006,210.837
+France,2006,"2,231.63"
+Gabon,2006,9.124
+"Gambia, The",2006,0.507
+Georgia,2006,7.83
+Germany,2006,"2,897.03"
+Ghana,2006,12.894
+Greece,2006,307.709
+Grenada,2006,0.529
+Guatemala,2006,35.304
+Guinea,2006,3.317
+Guinea-Bissau,2006,0.305
+Guyana,2006,0.87
+Haiti,2006,4.473
+Honduras,2006,8.981
+Hong Kong SAR,2006,189.538
+Hungary,2006,114.273
+Iceland,2006,16.579
+India,2006,886.867
+Indonesia,2006,364.239
+"Iran, Islamic Republic of",2006,212.492
+Ireland,2006,222.08
+Israel,2006,140.195
+Italy,2006,"1,852.59"
+Jamaica,2006,10.565
+Japan,2006,"4,367.46"
+Jordan,2006,14.318
+Kazakhstan,2006,77.237
+Kenya,2006,23.187
+Kiribati,2006,0.06
+Korea,2006,888.267
+Kuwait,2006,96.132
+Kyrgyz Republic,2006,2.822
+Lao People's Democratic Republic,2006,3.437
+Latvia,2006,19.621
+Lebanon,2006,22.622
+Lesotho,2006,1.634
+Liberia,2006,0.622
+Libya,2006,50.33
+Lithuania,2006,29.784
+Luxembourg,2006,40.577
+"Macedonia, Former Yugoslav Republic of",2006,6.248
+Madagascar,2006,5.489
+Malawi,2006,2.238
+Malaysia,2006,150.923
+Maldives,2006,0.988
+Mali,2006,6.191
+Malta,2006,6.085
+Mauritania,2006,2.663
+Mauritius,2006,6.402
+Mexico,2006,840.012
+Moldova,2006,3.242
+Mongolia,2006,2.803
+Morocco,2006,57.407
+Mozambique,2006,7.296
+Myanmar,2006,13.002
+Namibia,2006,6.316
+Nepal,2006,7.994
+Netherlands,2006,663.119
+New Zealand,2006,103.38
+Nicaragua,2006,5.369
+Niger,2006,3.55
+Nigeria,2006,115.35
+Norway,2006,335.281
+Oman,2006,35.992
+Pakistan,2006,128.996
+Panama,2006,17.113
+Papua New Guinea,2006,4.338
+Paraguay,2006,8.773
+Peru,2006,93.268
+Philippines,2006,116.931
+Poland,2006,338.689
+Portugal,2006,194.989
+Qatar,2006,52.722
+Romania,2006,121.901
+Russia,2006,979.048
+Rwanda,2006,2.397
+Samoa,2006,0.365
+São Tomé and Príncipe,2006,0.079
+Saudi Arabia,2006,348.604
+Senegal,2006,9.242
+Serbia,2006,31.589
+Seychelles,2006,0.749
+Sierra Leone,2006,1.419
+Singapore,2006,132.155
+Slovak Republic,2006,54.969
+Slovenia,2006,37.34
+Solomon Islands,2006,0.321
+South Africa,2006,255.155
+Spain,2006,"1,225.75"
+Sri Lanka,2006,26.794
+St. Kitts and Nevis,2006,0.487
+St. Lucia,2006,0.933
+St. Vincent and the Grenadines,2006,0.466
+Sudan,2006,37.564
+Suriname,2006,2.112
+Swaziland,2006,2.637
+Sweden,2006,385.293
+Switzerland,2006,377.24
+Syrian Arab Republic,2006,31.505
+Taiwan Province of China,2006,355.708
+Tajikistan,2006,2.811
+Tanzania,2006,12.787
+Thailand,2006,206.258
+"Timor-Leste, Dem. Rep. of",2006,0.356
+Togo,2006,2.21
+Tonga,2006,0.224
+Trinidad and Tobago,2006,19.935
+Tunisia,2006,30.62
+Turkey,2006,392.424
+Turkmenistan,2006,21.846
+Uganda,2006,9.443
+Ukraine,2006,106.072
+United Arab Emirates,2006,168.263
+United Kingdom,2006,"2,373.69"
+United States,2006,"13,244.55"
+Uruguay,2006,19.221
+Uzbekistan,2006,16.088
+Vanuatu,2006,0.387
+Venezuela,2006,181.608
+Vietnam,2006,60.995
+"Yemen, Republic of",2006,18.7
+Zambia,2006,10.942
+Zimbabwe,2006,5.54
+"Afghanistan, Rep. of.",2007,9.892
+Albania,2007,10.163
+Algeria,2007,116.158
+Angola,2007,55.37
+Antigua and Barbuda,2007,1.026
+Argentina,2007,247.096
+Armenia,2007,7.666
+Australia,2007,822.089
+Austria,2007,348.659
+Azerbaijan,2007,28.699
+"Bahamas, The",2007,6.624
+Bahrain,2007,17.505
+Bangladesh,2007,71.443
+Barbados,2007,3.751
+Belarus,2007,38.185
+Belgium,2007,423.541
+Belize,2007,1.286
+Benin,2007,5.377
+Bhutan,2007,1.156
+Bolivia,2007,11.91
+Bosnia and Herzegovina,2007,13.164
+Botswana,2007,11.859
+Brazil,2007,"1,177.71"
+Brunei Darussalam,2007,12.032
+Bulgaria,2007,35.781
+Burkina Faso,2007,6.924
+Burundi,2007,0.999
+Cambodia,2007,7.961
+Cameroon,2007,20.018
+Canada,2007,"1,266.40"
+Cape Verde,2007,1.313
+Central African Republic,2007,1.624
+Chad,2007,6.139
+Chile,2007,149.647
+China,2007,"3,051.24"
+Colombia,2007,149.375
+Comoros,2007,0.436
+"Congo, Democratic Republic of",2007,8.953
+"Congo, Republic of",2007,6.06
+Costa Rica,2007,22.242
+Côte d'Ivoire,2007,18.658
+Croatia,2007,47.422
+Cyprus,2007,19.948
+Czech Republic,2007,160.448
+Denmark,2007,302.56
+Djibouti,2007,0.835
+Dominica,2007,0.313
+Dominican Republic,2007,33.119
+Ecuador,2007,42.292
+Egypt,2007,129.125
+El Salvador,2007,19.647
+Equatorial Guinea,2007,8.473
+Eritrea,2007,1.425
+Estonia,2007,19.573
+Ethiopia,2007,15.646
+Fiji,2007,3.154
+Finland,2007,225.434
+France,2007,"2,401.44"
+Gabon,2007,9.337
+"Gambia, The",2007,0.557
+Georgia,2007,9.279
+Germany,2007,"3,080.55"
+Ghana,2007,14.988
+Greece,2007,341.826
+Grenada,2007,0.571
+Guatemala,2007,37.922
+Guinea,2007,3.597
+Guinea-Bissau,2007,0.342
+Guyana,2007,0.934
+Haiti,2007,5.091
+Honduras,2007,9.859
+Hong Kong SAR,2007,201.797
+Hungary,2007,125.024
+Iceland,2007,17.718
+India,2007,984.21
+Indonesia,2007,407.521
+"Iran, Islamic Republic of",2007,225.929
+Ireland,2007,250.237
+Israel,2007,149.046
+Italy,2007,"1,993.72"
+Jamaica,2007,11.013
+Japan,2007,"4,302.09"
+Jordan,2007,16.035
+Kazakhstan,2007,91.61
+Kenya,2007,26.404
+Kiribati,2007,0.062
+Korea,2007,942.975
+Kuwait,2007,95.408
+Kyrgyz Republic,2007,3.287
+Lao People's Democratic Republic,2007,3.998
+Latvia,2007,24.127
+Lebanon,2007,23.646
+Lesotho,2007,1.746
+Liberia,2007,0.663
+Libya,2007,60.751
+Lithuania,2007,35.37
+Luxembourg,2007,45.751
+"Macedonia, Former Yugoslav Republic of",2007,7.02
+Madagascar,2007,6.193
+Malawi,2007,2.4
+Malaysia,2007,160.563
+Maldives,2007,1.089
+Mali,2007,6.836
+Malta,2007,6.195
+Mauritania,2007,2.644
+Mauritius,2007,7.021
+Mexico,2007,897.315
+Moldova,2007,3.571
+Mongolia,2007,3.183
+Morocco,2007,62.311
+Mozambique,2007,7.839
+Myanmar,2007,13.713
+Namibia,2007,6.72
+Nepal,2007,8.617
+Netherlands,2007,720.94
+New Zealand,2007,114.331
+Nicaragua,2007,5.689
+Niger,2007,3.974
+Nigeria,2007,127.088
+Norway,2007,349.165
+Oman,2007,38.345
+Pakistan,2007,141.378
+Panama,2007,18.627
+Papua New Guinea,2007,4.326
+Paraguay,2007,9.206
+Peru,2007,100.596
+Philippines,2007,133.319
+Poland,2007,364.834
+Portugal,2007,211.718
+Qatar,2007,57.294
+Romania,2007,157.647
+Russia,2007,"1,166.56"
+Rwanda,2007,2.684
+Samoa,2007,0.387
+São Tomé and Príncipe,2007,0.09
+Saudi Arabia,2007,354.924
+Senegal,2007,10.359
+Serbia,2007,35.967
+Seychelles,2007,0.698
+Sierra Leone,2007,1.514
+Singapore,2007,146.09
+Slovak Republic,2007,69.279
+Slovenia,2007,41.125
+Solomon Islands,2007,0.354
+South Africa,2007,271.779
+Spain,2007,"1,359.11"
+Sri Lanka,2007,30.875
+St. Kitts and Nevis,2007,0.523
+St. Lucia,2007,1.009
+St. Vincent and the Grenadines,2007,0.507
+Sudan,2007,47.156
+Suriname,2007,2.234
+Swaziland,2007,2.726
+Sweden,2007,423.649
+Switzerland,2007,389.405
+Syrian Arab Republic,2007,34.965
+Taiwan Province of China,2007,365.317
+Tajikistan,2007,3.141
+Tanzania,2007,14.106
+Thailand,2007,219.436
+"Timor-Leste, Dem. Rep. of",2007,0.493
+Togo,2007,2.39
+Tonga,2007,0.234
+Trinidad and Tobago,2007,21.702
+Tunisia,2007,33.697
+Turkey,2007,432.512
+Turkmenistan,2007,26.215
+Uganda,2007,10.492
+Ukraine,2007,122.802
+United Arab Emirates,2007,185.949
+United Kingdom,2007,"2,660.66"
+United States,2007,"13,770.31"
+Uruguay,2007,20.725
+Uzbekistan,2007,18.84
+Vanuatu,2007,0.421
+Venezuela,2007,219.372
+Vietnam,2007,68.298
+"Yemen, Republic of",2007,21.657
+Zambia,2007,10.104
+Zimbabwe,2007,18.281
+"Afghanistan, Rep. of.",2008,11.513
+Albania,2008,11.131
+Algeria,2008,126.889
+Angola,2008,67.608
+Antigua and Barbuda,2008,1.074
+Argentina,2008,277.912
+Armenia,2008,8.579
+Australia,2008,854.072
+Austria,2008,364.58
+Azerbaijan,2008,40.229
+"Bahamas, The",2008,7.026
+Bahrain,2008,19.673
+Bangladesh,2008,77.943
+Barbados,2008,3.922
+Belarus,2008,37.323
+Belgium,2008,441.115
+Belize,2008,1.362
+Benin,2008,5.838
+Bhutan,2008,1.29
+Bolivia,2008,13.194
+Bosnia and Herzegovina,2008,14.225
+Botswana,2008,13.071
+Brazil,2008,"1,251.63"
+Brunei Darussalam,2008,12.499
+Bulgaria,2008,39.155
+Burkina Faso,2008,7.563
+Burundi,2008,1.102
+Cambodia,2008,8.655
+Cameroon,2008,21.383
+Canada,2008,"1,334.39"
+Cape Verde,2008,1.449
+Central African Republic,2008,1.745
+Chad,2008,6.396
+Chile,2008,149.027
+China,2008,"3,416.57"
+Colombia,2008,156.69
+Comoros,2008,0.472
+"Congo, Democratic Republic of",2008,9.954
+"Congo, Republic of",2008,6.878
+Costa Rica,2008,23.319
+Côte d'Ivoire,2008,20.225
+Croatia,2008,51.159
+Cyprus,2008,21.279
+Czech Republic,2008,172.504
+Denmark,2008,316.164
+Djibouti,2008,0.914
+Dominica,2008,0.327
+Dominican Republic,2008,33.843
+Ecuador,2008,44.962
+Egypt,2008,140.157
+El Salvador,2008,21.046
+Equatorial Guinea,2008,9.836
+Eritrea,2008,1.818
+Estonia,2008,21.925
+Ethiopia,2008,17.311
+Fiji,2008,3.301
+Finland,2008,235.106
+France,2008,"2,512.69"
+Gabon,2008,9.776
+"Gambia, The",2008,0.606
+Georgia,2008,10.52
+Germany,2008,"3,184.13"
+Ghana,2008,16.872
+Greece,2008,367.052
+Grenada,2008,0.617
+Guatemala,2008,40.635
+Guinea,2008,3.759
+Guinea-Bissau,2008,0.362
+Guyana,2008,0.994
+Haiti,2008,5.633
+Honduras,2008,10.589
+Hong Kong SAR,2008,213.915
+Hungary,2008,131.546
+Iceland,2008,17.795
+India,2008,"1,079.90"
+Indonesia,2008,444.29
+"Iran, Islamic Republic of",2008,241.006
+Ireland,2008,266.997
+Israel,2008,158.397
+Italy,2008,"2,075.93"
+Jamaica,2008,11.443
+Japan,2008,"4,453.39"
+Jordan,2008,17.589
+Kazakhstan,2008,108.171
+Kenya,2008,29.288
+Kiribati,2008,0.063
+Korea,2008,"1,000.53"
+Kuwait,2008,103.678
+Kyrgyz Republic,2008,3.646
+Lao People's Democratic Republic,2008,4.448
+Latvia,2008,27.79
+Lebanon,2008,24.964
+Lesotho,2008,1.902
+Liberia,2008,0.72
+Libya,2008,71.787
+Lithuania,2008,39.172
+Luxembourg,2008,48.976
+"Macedonia, Former Yugoslav Republic of",2008,7.548
+Madagascar,2008,6.581
+Malawi,2008,2.573
+Malaysia,2008,171.829
+Maldives,2008,1.189
+Mali,2008,7.36
+Malta,2008,6.53
+Mauritania,2008,2.858
+Mauritius,2008,7.42
+Mexico,2008,951.733
+Moldova,2008,3.945
+Mongolia,2008,3.32
+Morocco,2008,67.493
+Mozambique,2008,8.366
+Myanmar,2008,14.263
+Namibia,2008,7.272
+Nepal,2008,9.366
+Netherlands,2008,759.491
+New Zealand,2008,118.611
+Nicaragua,2008,6.067
+Niger,2008,4.285
+Nigeria,2008,146.5
+Norway,2008,365.775
+Oman,2008,42.436
+Pakistan,2008,154.677
+Panama,2008,20.474
+Papua New Guinea,2008,4.304
+Paraguay,2008,9.735
+Peru,2008,107.656
+Philippines,2008,143.923
+Poland,2008,390.679
+Portugal,2008,222.401
+Qatar,2008,69.051
+Romania,2008,184.456
+Russia,2008,"1,344.54"
+Rwanda,2008,2.986
+Samoa,2008,0.412
+São Tomé and Príncipe,2008,0.098
+Saudi Arabia,2008,377.193
+Senegal,2008,11.237
+Serbia,2008,38.516
+Seychelles,2008,0.727
+Sierra Leone,2008,1.641
+Singapore,2008,157.568
+Slovak Republic,2008,78.303
+Slovenia,2008,43.955
+Solomon Islands,2008,0.393
+South Africa,2008,291.38
+Spain,2008,"1,454.35"
+Sri Lanka,2008,34.218
+St. Kitts and Nevis,2008,0.557
+St. Lucia,2008,1.084
+St. Vincent and the Grenadines,2008,0.555
+Sudan,2008,58.003
+Suriname,2008,2.347
+Swaziland,2008,2.788
+Sweden,2008,442.788
+Switzerland,2008,397.49
+Syrian Arab Republic,2008,36.815
+Taiwan Province of China,2008,389.991
+Tajikistan,2008,3.457
+Tanzania,2008,15.599
+Thailand,2008,236.59
+"Timor-Leste, Dem. Rep. of",2008,0.53
+Togo,2008,2.589
+Tonga,2008,0.247
+Trinidad and Tobago,2008,24.276
+Tunisia,2008,36.828
+Turkey,2008,455.538
+Turkmenistan,2008,31.732
+Uganda,2008,11.275
+Ukraine,2008,137.667
+United Arab Emirates,2008,207.939
+United Kingdom,2008,"2,822.66"
+United States,2008,"14,418.48"
+Uruguay,2008,22.211
+Uzbekistan,2008,21.727
+Vanuatu,2008,0.451
+Venezuela,2008,231.959
+Vietnam,2008,76.414
+"Yemen, Republic of",2008,24.504
+Zambia,2008,10.519
+Zimbabwe,2008,63.039
+"Afghanistan, Rep. of.",2009,13.318
+Albania,2009,11.726
+Algeria,2009,134.797
+Angola,2009,69.708
+Antigua and Barbuda,2009,1.18
+Argentina,2009,301.331
+Armenia,2009,8.683
+Australia,2009,920.01
+Austria,2009,374.417
+Azerbaijan,2009,42.505
+"Bahamas, The",2009,7.403
+Bahrain,2009,19.361
+Bangladesh,2009,92.121
+Barbados,2009,3.595
+Belarus,2009,49.043
+Belgium,2009,461.489
+Belize,2009,1.407
+Benin,2009,6.401
+Bhutan,2009,1.473
+Bolivia,2009,17.549
+Bosnia and Herzegovina,2009,16.961
+Botswana,2009,10.808
+Brazil,2009,"1,481.55"
+Brunei Darussalam,2009,14.695
+Bulgaria,2009,44.777
+Burkina Faso,2009,7.78
+Burundi,2009,1.41
+Cambodia,2009,10.901
+Cameroon,2009,21.82
+Canada,2009,"1,319.14"
+Cape Verde,2009,1.755
+Central African Republic,2009,1.983
+Chad,2009,6.974
+Chile,2009,150.361
+China,2009,"4,757.74"
+Colombia,2009,228.614
+Comoros,2009,0.525
+"Congo, Democratic Republic of",2009,11.104
+"Congo, Republic of",2009,8.632
+Costa Rica,2009,29.291
+Côte d'Ivoire,2009,22.909
+Croatia,2009,61.724
+Cyprus,2009,23.221
+Czech Republic,2009,189.669
+Denmark,2009,308.323
+Djibouti,2009,1.089
+Dominica,2009,0.376
+Dominican Republic,2009,44.716
+Ecuador,2009,55.613
+Egypt,2009,187.956
+El Salvador,2009,22.166
+Equatorial Guinea,2009,11.175
+Eritrea,2009,1.694
+Estonia,2009,18.045
+Ethiopia,2009,33.92
+Fiji,2009,3.048
+Finland,2009,242.328
+France,2009,"2,634.82"
+Gabon,2009,10.936
+"Gambia, The",2009,0.726
+Georgia,2009,10.981
+Germany,2009,"3,235.46"
+Ghana,2009,14.761
+Greece,2009,338.25
+Grenada,2009,0.683
+Guatemala,2009,36.471
+Guinea,2009,4.436
+Guinea-Bissau,2009,0.438
+Guyana,2009,1.196
+Haiti,2009,6.908
+Honduras,2009,14.581
+Hong Kong SAR,2009,208.847
+Hungary,2009,124.241
+Iceland,2009,11.781
+India,2009,"1,242.64"
+Indonesia,2009,514.931
+"Iran, Islamic Republic of",2009,331.757
+Ireland,2009,226.771
+Israel,2009,215.727
+Italy,2009,"2,089.56"
+Jamaica,2009,11.923
+Japan,2009,"5,048.63"
+Jordan,2009,22.556
+Kazakhstan,2009,107.038
+Kenya,2009,30.212
+Kiribati,2009,0.114
+Korea,2009,800.294
+Kuwait,2009,114.878
+Kyrgyz Republic,2009,4.681
+Lao People's Democratic Republic,2009,5.721
+Latvia,2009,24.198
+Lebanon,2009,32.66
+Lesotho,2009,1.624
+Liberia,2009,0.868
+Libya,2009,60.609
+Lithuania,2009,35.964
+Luxembourg,2009,46.513
+"Macedonia, Former Yugoslav Republic of",2009,8.825
+Madagascar,2009,8.974
+Malawi,2009,4.909
+Malaysia,2009,207.35
+Maldives,2009,1.343
+Mali,2009,8.757
+Malta,2009,7.714
+Mauritania,2009,3.241
+Mauritius,2009,9.156
+Mexico,2009,866.336
+Moldova,2009,5.328
+Mongolia,2009,4.212
+Morocco,2009,90.775
+Mozambique,2009,9.654
+Myanmar,2009,26.523
+Namibia,2009,9.039
+Nepal,2009,13.14
+Netherlands,2009,789.675
+New Zealand,2009,109.563
+Nicaragua,2009,6.298
+Niger,2009,5.323
+Nigeria,2009,165.437
+Norway,2009,368.962
+Oman,2009,52.335
+Pakistan,2009,166.513
+Panama,2009,24.754
+Papua New Guinea,2009,8.2
+Paraguay,2009,13.611
+Peru,2009,127.368
+Philippines,2009,158.702
+Poland,2009,422.965
+Portugal,2009,219.844
+Qatar,2009,92.541
+Romania,2009,160.674
+Russia,2009,"1,254.65"
+Rwanda,2009,5.011
+Samoa,2009,0.567
+São Tomé and Príncipe,2009,0.189
+Saudi Arabia,2009,379.5
+Senegal,2009,12.61
+Serbia,2009,42.385
+Seychelles,2009,0.656
+Sierra Leone,2009,2.064
+Singapore,2009,163.132
+Slovak Republic,2009,88.296
+Slovenia,2009,49.551
+Solomon Islands,2009,0.668
+South Africa,2009,277.379
+Spain,2009,"1,438.36"
+Sri Lanka,2009,41.323
+St. Kitts and Nevis,2009,0.547
+St. Lucia,2009,0.991
+St. Vincent and the Grenadines,2009,0.625
+Sudan,2009,54.294
+Suriname,2009,3.147
+Swaziland,2009,2.929
+Sweden,2009,397.703
+Switzerland,2009,484.132
+Syrian Arab Republic,2009,54.352
+Taiwan Province of China,2009,357.344
+Tajikistan,2009,4.577
+Tanzania,2009,22.159
+Thailand,2009,266.434
+"Timor-Leste, Dem. Rep. of",2009,0.599
+Togo,2009,2.771
+Tonga,2009,0.259
+Trinidad and Tobago,2009,23.002
+Tunisia,2009,39.573
+Turkey,2009,593.533
+Turkmenistan,2009,0
+Uganda,2009,15.658
+Ukraine,2009,115.706
+United Arab Emirates,2009,228.578
+United Kingdom,2009,"2,198.16"
+United States,2009,"14,266.20"
+Uruguay,2009,31.606
+Uzbekistan,2009,30.321
+Vanuatu,2009,0.554
+Venezuela,2009,353.469
+Vietnam,2009,91.764
+"Yemen, Republic of",2009,26.236
+Zambia,2009,12.293
+Zimbabwe,2009,3.556
+"Afghanistan, Rep. of.",2010,15.406
+Albania,2010,11.797
+Algeria,2010,154.843
+Angola,2010,87.718
+Antigua and Barbuda,2010,1.196
+Argentina,2010,296.109
+Armenia,2010,8.238
+Australia,2010,982.826
+Austria,2010,389.002
+Azerbaijan,2010,51.916
+"Bahamas, The",2010,7.409
+Bahrain,2010,21.567
+Bangladesh,2010,99.088
+Barbados,2010,3.63
+Belarus,2010,53.137
+Belgium,2010,480.154
+Belize,2010,1.471
+Benin,2010,6.772
+Bhutan,2010,1.563
+Bolivia,2010,18.961
+Bosnia and Herzegovina,2010,17.697
+Botswana,2010,11.519
+Brazil,2010,"1,724.35"
+Brunei Darussalam,2010,15.698
+Bulgaria,2010,45.456
+Burkina Faso,2010,8.308
+Burundi,2010,1.437
+Cambodia,2010,11.748
+Cameroon,2010,23.556
+Canada,2010,"1,438.99"
+Cape Verde,2010,1.885
+Central African Republic,2010,2.146
+Chad,2010,8.241
+Chile,2010,160.442
+China,2010,"5,263.33"
+Colombia,2010,245.254
+Comoros,2010,0.571
+"Congo, Democratic Republic of",2010,12.304
+"Congo, Republic of",2010,12.142
+Costa Rica,2010,30.433
+Côte d'Ivoire,2010,24.747
+Croatia,2010,63.261
+Cyprus,2010,24.306
+Czech Republic,2010,201.333
+Denmark,2010,326.639
+Djibouti,2010,1.205
+Dominica,2010,0.389
+Dominican Republic,2010,45.219
+Ecuador,2010,59.618
+Egypt,2010,208.458
+El Salvador,2010,22.941
+Equatorial Guinea,2010,12.84
+Eritrea,2010,1.965
+Estonia,2010,17.473
+Ethiopia,2010,33.144
+Fiji,2010,3.063
+Finland,2010,252.911
+France,2010,"2,745.49"
+Gabon,2010,12.906
+"Gambia, The",2010,0.76
+Georgia,2010,10.761
+Germany,2010,"3,325.76"
+Ghana,2010,15.302
+Greece,2010,352.51
+Grenada,2010,0.709
+Guatemala,2010,36.531
+Guinea,2010,4.547
+Guinea-Bissau,2010,0.464
+Guyana,2010,1.267
+Haiti,2010,7.277
+Honduras,2010,15.757
+Hong Kong SAR,2010,220.828
+Hungary,2010,132.384
+Iceland,2010,11.658
+India,2010,"1,339.49"
+Indonesia,2010,568.589
+"Iran, Islamic Republic of",2010,358.878
+Ireland,2010,226.32
+Israel,2010,222.898
+Italy,2010,"2,172.44"
+Jamaica,2010,12.363
+Japan,2010,"5,187.46"
+Jordan,2010,24.405
+Kazakhstan,2010,120.75
+Kenya,2010,34.466
+Kiribati,2010,0.116
+Korea,2010,855.384
+Kuwait,2010,135.367
+Kyrgyz Republic,2010,4.779
+Lao People's Democratic Republic,2010,6.053
+Latvia,2010,22.145
+Lebanon,2010,35.214
+Lesotho,2010,1.695
+Liberia,2010,0.914
+Libya,2010,74.68
+Lithuania,2010,34.884
+Luxembourg,2010,47.035
+"Macedonia, Former Yugoslav Republic of",2010,9.3
+Madagascar,2010,9.039
+Malawi,2010,5.555
+Malaysia,2010,216.181
+Maldives,2010,1.444
+Mali,2010,9.557
+Malta,2010,8.103
+Mauritania,2010,3.445
+Mauritius,2010,8.952
+Mexico,2010,952.575
+Moldova,2010,4.748
+Mongolia,2010,4.355
+Morocco,2010,98.308
+Mozambique,2010,9.605
+Myanmar,2010,27.856
+Namibia,2010,9.251
+Nepal,2010,15.266
+Netherlands,2010,823.64
+New Zealand,2010,117.659
+Nicaragua,2010,6.363
+Niger,2010,5.876
+Nigeria,2010,185.835
+Norway,2010,404.213
+Oman,2010,59.657
+Pakistan,2010,178.723
+Panama,2010,26.452
+Papua New Guinea,2010,8.389
+Paraguay,2010,14.284
+Peru,2010,139.502
+Philippines,2010,171.078
+Poland,2010,432.254
+Portugal,2010,228.58
+Qatar,2010,128.181
+Romania,2010,166.01
+Russia,2010,"1,363.98"
+Rwanda,2010,5.32
+Samoa,2010,0.595
+São Tomé and Príncipe,2010,0.197
+Saudi Arabia,2010,442.765
+Senegal,2010,13.517
+Serbia,2010,44.592
+Seychelles,2010,0.791
+Sierra Leone,2010,2.189
+Singapore,2010,178.64
+Slovak Republic,2010,96.365
+Slovenia,2010,51.52
+Solomon Islands,2010,0.717
+South Africa,2010,286.357
+Spain,2010,"1,475.49"
+Sri Lanka,2010,38.347
+St. Kitts and Nevis,2010,0.559
+St. Lucia,2010,1.015
+St. Vincent and the Grenadines,2010,0.645
+Sudan,2010,64.965
+Suriname,2010,3.453
+Swaziland,2010,3.038
+Sweden,2010,437.342
+Switzerland,2010,498.268
+Syrian Arab Republic,2010,61.289
+Taiwan Province of China,2010,385.165
+Tajikistan,2010,4.821
+Tanzania,2010,23.662
+Thailand,2010,282.351
+"Timor-Leste, Dem. Rep. of",2010,0.706
+Togo,2010,2.927
+Tonga,2010,0.277
+Trinidad and Tobago,2010,26.039
+Tunisia,2010,42.033
+Turkey,2010,590.701
+Turkmenistan,2010,0
+Uganda,2010,16.739
+Ukraine,2010,119.701
+United Arab Emirates,2010,256.179
+United Kingdom,2010,"2,353.03"
+United States,2010,"14,704.21"
+Uruguay,2010,33.864
+Uzbekistan,2010,34.232
+Vanuatu,2010,0.602
+Venezuela,2010,379.16
+Vietnam,2010,102.906
+"Yemen, Republic of",2010,31.98
+Zambia,2010,15.792
+Zimbabwe,2010,4.22
+"Afghanistan, Rep. of.",2012,19.248
+Albania,2012,13.808
+Algeria,2012,177.83
+Angola,2012,118.426
+Antigua and Barbuda,2012,1.322
+Argentina,2012,315.832
+Armenia,2012,9.086
+Australia,2012,"1,039.69"
+Austria,2012,406.52
+Azerbaijan,2012,58.795
+"Bahamas, The",2012,7.786
+Bahrain,2012,24.231
+Bangladesh,2012,114.717
+Barbados,2012,4.03
+Belarus,2012,69.146
+Belgium,2012,506.004
+Belize,2012,1.619
+Benin,2012,8.007
+Bhutan,2012,1.83
+Bolivia,2012,21.809
+Bosnia and Herzegovina,2012,20.424
+Botswana,2012,13.64
+Brazil,2012,"1,924.29"
+Brunei Darussalam,2012,16.632
+Bulgaria,2012,49.867
+Burkina Faso,2012,9.758
+Burundi,2012,1.607
+Cambodia,2012,14.434
+Cameroon,2012,26.232
+Canada,2012,"1,584.48"
+Cape Verde,2012,2.243
+Central African Republic,2012,2.428
+Chad,2012,9.112
+Chile,2012,169.244
+China,2012,"6,524.23"
+Colombia,2012,279.366
+Comoros,2012,0.635
+"Congo, Democratic Republic of",2012,14.525
+"Congo, Republic of",2012,13.186
+Costa Rica,2012,34.316
+Côte d'Ivoire,2012,28.002
+Croatia,2012,70.51
+Cyprus,2012,26.684
+Czech Republic,2012,229.512
+Denmark,2012,354.901
+Djibouti,2012,1.466
+Dominica,2012,0.425
+Dominican Republic,2012,51.474
+Ecuador,2012,65.757
+Egypt,2012,250.911
+El Salvador,2012,25.348
+Equatorial Guinea,2012,15.172
+Eritrea,2012,2.677
+Estonia,2012,18.62
+Ethiopia,2012,35.509
+Fiji,2012,3.336
+Finland,2012,271.393
+France,2012,"2,907.44"
+Gabon,2012,14.042
+"Gambia, The",2012,0.835
+Georgia,2012,12.291
+Germany,2012,"3,397.87"
+Ghana,2012,19.88
+Greece,2012,367.41
+Grenada,2012,0.762
+Guatemala,2012,39.017
+Guinea,2012,5.378
+Guinea-Bissau,2012,0.515
+Guyana,2012,1.456
+Haiti,2012,7.943
+Honduras,2012,18.151
+Hong Kong SAR,2012,243.899
+Hungary,2012,149
+Iceland,2012,11.864
+India,2012,"1,583.43"
+Indonesia,2012,661.113
+"Iran, Islamic Republic of",2012,403.811
+Ireland,2012,232.09
+Israel,2012,244.806
+Italy,2012,"2,246.55"
+Jamaica,2012,13.297
+Japan,2012,"5,410.70"
+Jordan,2012,28.802
+Kazakhstan,2012,154.444
+Kenya,2012,45.226
+Kiribati,2012,0.122
+Korea,2012,"1,005.74"
+Kuwait,2012,154.047
+Kyrgyz Republic,2012,5.54
+Lao People's Democratic Republic,2012,7.069
+Latvia,2012,23.233
+Lebanon,2012,40.474
+Lesotho,2012,1.842
+Liberia,2012,1.194
+Libya,2012,90.605
+Lithuania,2012,37.627
+Luxembourg,2012,51.197
+"Macedonia, Former Yugoslav Republic of",2012,10.946
+Madagascar,2012,10.384
+Malawi,2012,7.156
+Malaysia,2012,248.835
+Maldives,2012,1.666
+Mali,2012,10.853
+Malta,2012,8.85
+Mauritania,2012,4.949
+Mauritius,2012,10.146
+Mexico,2012,"1,097.85"
+Moldova,2012,5.3
+Mongolia,2012,5.775
+Morocco,2012,112.455
+Mozambique,2012,11.186
+Myanmar,2012,30.733
+Namibia,2012,9.865
+Nepal,2012,19.097
+Netherlands,2012,854.871
+New Zealand,2012,123.024
+Nicaragua,2012,6.589
+Niger,2012,7.099
+Nigeria,2012,215.126
+Norway,2012,428.127
+Oman,2012,67.539
+Pakistan,2012,194.27
+Panama,2012,31.968
+Papua New Guinea,2012,8.822
+Paraguay,2012,15.939
+Peru,2012,142.051
+Philippines,2012,190.014
+Poland,2012,476.825
+Portugal,2012,236.978
+Qatar,2012,161.313
+Romania,2012,211.43
+Russia,2012,"1,706.34"
+Rwanda,2012,6.182
+Samoa,2012,0.673
+São Tomé and Príncipe,2012,0.221
+Saudi Arabia,2012,514.836
+Senegal,2012,15.422
+Serbia,2012,51.111
+Seychelles,2012,0.931
+Sierra Leone,2012,2.534
+Singapore,2012,195.882
+Slovak Republic,2012,109.056
+Slovenia,2012,57.379
+Solomon Islands,2012,0.896
+South Africa,2012,314.635
+Spain,2012,"1,506.20"
+Sri Lanka,2012,44.443
+St. Kitts and Nevis,2012,0.6
+St. Lucia,2012,1.119
+St. Vincent and the Grenadines,2012,0.733
+Sudan,2012,80.811
+Suriname,2012,4.514
+Swaziland,2012,3.209
+Sweden,2012,495.682
+Switzerland,2012,514.088
+Syrian Arab Republic,2012,74.323
+Taiwan Province of China,2012,443.539
+Tajikistan,2012,6.342
+Tanzania,2012,27.901
+Thailand,2012,322.009
+"Timor-Leste, Dem. Rep. of",2012,0.967
+Togo,2012,3.247
+Tonga,2012,0.314
+Trinidad and Tobago,2012,32.868
+Tunisia,2012,46.93
+Turkey,2012,638.419
+Turkmenistan,2012,0
+Uganda,2012,19.648
+Ukraine,2012,145.757
+United Arab Emirates,2012,298.848
+United Kingdom,2012,"2,611.27"
+United States,2012,"16,008.51"
+Uruguay,2012,47.355
+Uzbekistan,2012,44.892
+Vanuatu,2012,0.692
+Venezuela,2012,394.106
+Vietnam,2012,123.505
+"Yemen, Republic of",2012,37.153
+Zambia,2012,20.208
+Zimbabwe,2012,5.528
+"Afghanistan, Rep. of.",2013,21.555
+Albania,2013,14.91
+Algeria,2013,190.432
+Angola,2013,136.415
+Antigua and Barbuda,2013,1.404
+Argentina,2013,329.332
+Armenia,2013,9.844
+Australia,2013,"1,078.91"
+Austria,2013,417.771
+Azerbaijan,2013,62.867
+"Bahamas, The",2013,8.02
+Bahrain,2013,25.814
+Bangladesh,2013,123.447
+Barbados,2013,4.23
+Belarus,2013,79.416
+Belgium,2013,520.026
+Belize,2013,1.701
+Benin,2013,8.713
+Bhutan,2013,1.999
+Bolivia,2013,23.306
+Bosnia and Herzegovina,2013,22.102
+Botswana,2013,14.837
+Brazil,2013,"2,036.24"
+Brunei Darussalam,2013,16.917
+Bulgaria,2013,53.912
+Burkina Faso,2013,10.545
+Burundi,2013,1.714
+Cambodia,2013,15.932
+Cameroon,2013,27.73
+Canada,2013,"1,651.52"
+Cape Verde,2013,2.459
+Central African Republic,2013,2.599
+Chad,2013,9.046
+Chile,2013,179.238
+China,2013,"7,287.76"
+Colombia,2013,297.363
+Comoros,2013,0.682
+"Congo, Democratic Republic of",2013,15.975
+"Congo, Republic of",2013,12.783
+Costa Rica,2013,36.735
+Côte d'Ivoire,2013,30.172
+Croatia,2013,74.861
+Cyprus,2013,28.066
+Czech Republic,2013,245.565
+Denmark,2013,370.892
+Djibouti,2013,1.612
+Dominica,2013,0.445
+Dominican Republic,2013,54.91
+Ecuador,2013,69.463
+Egypt,2013,274.795
+El Salvador,2013,27.206
+Equatorial Guinea,2013,15.161
+Eritrea,2013,3.124
+Estonia,2013,19.803
+Ethiopia,2013,37.891
+Fiji,2013,3.504
+Finland,2013,281.948
+France,2013,"2,998.97"
+Gabon,2013,14.209
+"Gambia, The",2013,0.882
+Georgia,2013,13.293
+Germany,2013,"3,443.06"
+Ghana,2013,21.199
+Greece,2013,377.199
+Grenada,2013,0.799
+Guatemala,2013,40.468
+Guinea,2013,5.868
+Guinea-Bissau,2013,0.546
+Guyana,2013,1.558
+Haiti,2013,8.256
+Honduras,2013,19.873
+Hong Kong SAR,2013,257.357
+Hungary,2013,157.976
+Iceland,2013,12.135
+India,2013,"1,740.41"
+Indonesia,2013,716.887
+"Iran, Islamic Republic of",2013,427.594
+Ireland,2013,237.912
+Israel,2013,257.14
+Italy,2013,"2,296.21"
+Jamaica,2013,13.873
+Japan,2013,"5,591.43"
+Jordan,2013,31.028
+Kazakhstan,2013,173.084
+Kenya,2013,49.787
+Kiribati,2013,0.126
+Korea,2013,"1,087.25"
+Kuwait,2013,164.479
+Kyrgyz Republic,2013,5.899
+Lao People's Democratic Republic,2013,7.688
+Latvia,2013,24.461
+Lebanon,2013,43.163
+Lesotho,2013,1.92
+Liberia,2013,1.413
+Libya,2013,99.912
+Lithuania,2013,39.406
+Luxembourg,2013,53.59
+"Macedonia, Former Yugoslav Republic of",2013,11.74
+Madagascar,2013,11.477
+Malawi,2013,8.296
+Malaysia,2013,270.36
+Maldives,2013,1.784
+Mali,2013,11.541
+Malta,2013,9.254
+Mauritania,2013,5.582
+Mauritius,2013,10.847
+Mexico,2013,"1,186.61"
+Moldova,2013,5.634
+Mongolia,2013,7.516
+Morocco,2013,120.288
+Mozambique,2013,12.031
+Myanmar,2013,32.286
+Namibia,2013,10.138
+Nepal,2013,20.855
+Netherlands,2013,876.58
+New Zealand,2013,126.316
+Nicaragua,2013,6.851
+Niger,2013,7.565
+Nigeria,2013,232.736
+Norway,2013,441.282
+Oman,2013,71.594
+Pakistan,2013,205.926
+Panama,2013,35.293
+Papua New Guinea,2013,9.077
+Paraguay,2013,17.257
+Peru,2013,152.802
+Philippines,2013,200.928
+Poland,2013,504.989
+Portugal,2013,242.136
+Qatar,2013,170.858
+Romania,2013,243.392
+Russia,2013,"1,896.68"
+Rwanda,2013,6.697
+Samoa,2013,0.717
+São Tomé and Príncipe,2013,0.237
+Saudi Arabia,2013,556.532
+Senegal,2013,16.412
+Serbia,2013,55.836
+Seychelles,2013,1.011
+Sierra Leone,2013,2.704
+Singapore,2013,205.994
+Slovak Republic,2013,115.61
+Slovenia,2013,60.311
+Solomon Islands,2013,1.002
+South Africa,2013,331.801
+Spain,2013,"1,534.01"
+Sri Lanka,2013,47.671
+St. Kitts and Nevis,2013,0.624
+St. Lucia,2013,1.187
+St. Vincent and the Grenadines,2013,0.777
+Sudan,2013,90.739
+Suriname,2013,5.386
+Swaziland,2013,3.304
+Sweden,2013,521.545
+Switzerland,2013,520.368
+Syrian Arab Republic,2013,81.836
+Taiwan Province of China,2013,466.126
+Tajikistan,2013,7.325
+Tanzania,2013,30.515
+Thailand,2013,347.815
+"Timor-Leste, Dem. Rep. of",2013,1.136
+Togo,2013,3.409
+Tonga,2013,0.332
+Trinidad and Tobago,2013,35.857
+Tunisia,2013,49.8
+Turkey,2013,673.753
+Turkmenistan,2013,0
+Uganda,2013,21.451
+Ukraine,2013,160.619
+United Arab Emirates,2013,326.175
+United Kingdom,2013,"2,758.80"
+United States,2013,"16,729.38"
+Uruguay,2013,54.388
+Uzbekistan,2013,51.125
+Vanuatu,2013,0.747
+Venezuela,2013,403.123
+Vietnam,2013,135.729
+"Yemen, Republic of",2013,40.003
+Zambia,2013,21.829
+Zimbabwe,2013,6.214
+"Afghanistan, Rep. of.",2014,24.304
+Albania,2014,16.053
+Algeria,2014,203.449
+Angola,2014,151.089
+Antigua and Barbuda,2014,1.494
+Argentina,2014,347.731
+Armenia,2014,10.821
+Australia,2014,"1,125.82"
+Austria,2014,430.611
+Azerbaijan,2014,65.776
+"Bahamas, The",2014,8.287
+Bahrain,2014,27.165
+Bangladesh,2014,133.176
+Barbados,2014,4.445
+Belarus,2014,91.501
+Belgium,2014,535.079
+Belize,2014,1.787
+Benin,2014,9.483
+Bhutan,2014,2.174
+Bolivia,2014,24.925
+Bosnia and Herzegovina,2014,23.616
+Botswana,2014,15.032
+Brazil,2014,"2,155.68"
+Brunei Darussalam,2014,17.039
+Bulgaria,2014,58.117
+Burkina Faso,2014,11.402
+Burundi,2014,1.835
+Cambodia,2014,17.458
+Cameroon,2014,29.758
+Canada,2014,"1,713.41"
+Cape Verde,2014,2.689
+Central African Republic,2014,2.776
+Chad,2014,9.205
+Chile,2014,183.909
+China,2014,"8,283.35"
+Colombia,2014,319.728
+Comoros,2014,0.733
+"Congo, Democratic Republic of",2014,17.352
+"Congo, Republic of",2014,12.671
+Costa Rica,2014,38.891
+Côte d'Ivoire,2014,32.546
+Croatia,2014,79.296
+Cyprus,2014,29.483
+Czech Republic,2014,264.418
+Denmark,2014,383.979
+Djibouti,2014,1.779
+Dominica,2014,0.465
+Dominican Republic,2014,58.575
+Ecuador,2014,73.444
+Egypt,2014,299.121
+El Salvador,2014,29.167
+Equatorial Guinea,2014,14.881
+Eritrea,2014,3.663
+Estonia,2014,21.09
+Ethiopia,2014,40.432
+Fiji,2014,3.683
+Finland,2014,293.345
+France,2014,"3,089.18"
+Gabon,2014,14.693
+"Gambia, The",2014,0.944
+Georgia,2014,14.377
+Germany,2014,"3,485.90"
+Ghana,2014,22.631
+Greece,2014,387.042
+Grenada,2014,0.844
+Guatemala,2014,41.885
+Guinea,2014,6.377
+Guinea-Bissau,2014,0.578
+Guyana,2014,1.658
+Haiti,2014,8.669
+Honduras,2014,21.707
+Hong Kong SAR,2014,271.4
+Hungary,2014,166.299
+Iceland,2014,12.527
+India,2014,"1,908.33"
+Indonesia,2014,777.89
+"Iran, Islamic Republic of",2014,454.918
+Ireland,2014,243.05
+Israel,2014,270.446
+Italy,2014,"2,355.35"
+Jamaica,2014,14.694
+Japan,2014,"5,791.63"
+Jordan,2014,33.304
+Kazakhstan,2014,199.333
+Kenya,2014,55.078
+Kiribati,2014,0.129
+Korea,2014,"1,167.69"
+Kuwait,2014,174.939
+Kyrgyz Republic,2014,6.323
+Lao People's Democratic Republic,2014,8.374
+Latvia,2014,25.732
+Lebanon,2014,45.994
+Lesotho,2014,1.999
+Liberia,2014,1.665
+Libya,2014,109.604
+Lithuania,2014,41.173
+Luxembourg,2014,56.04
+"Macedonia, Former Yugoslav Republic of",2014,12.566
+Madagascar,2014,12.692
+Malawi,2014,9.679
+Malaysia,2014,293.746
+Maldives,2014,1.914
+Mali,2014,12.333
+Malta,2014,9.668
+Mauritania,2014,6.045
+Mauritius,2014,11.629
+Mexico,2014,"1,273.56"
+Moldova,2014,6.052
+Mongolia,2014,7.595
+Morocco,2014,128.427
+Mozambique,2014,12.755
+Myanmar,2014,33.92
+Namibia,2014,10.414
+Nepal,2014,22.757
+Netherlands,2014,902.03
+New Zealand,2014,129.843
+Nicaragua,2014,7.125
+Niger,2014,8.076
+Nigeria,2014,251.306
+Norway,2014,454.533
+Oman,2014,76.1
+Pakistan,2014,219.322
+Panama,2014,38.809
+Papua New Guinea,2014,9.077
+Paraguay,2014,18.788
+Peru,2014,164.355
+Philippines,2014,212.469
+Poland,2014,535.655
+Portugal,2014,246.824
+Qatar,2014,178.953
+Romania,2014,274.083
+Russia,2014,"2,127.58"
+Rwanda,2014,7.251
+Samoa,2014,0.769
+São Tomé and Príncipe,2014,0.258
+Saudi Arabia,2014,601.387
+Senegal,2014,17.473
+Serbia,2014,61.11
+Seychelles,2014,1.084
+Sierra Leone,2014,2.871
+Singapore,2014,216.372
+Slovak Republic,2014,122.589
+Slovenia,2014,63.417
+Solomon Islands,2014,1.086
+South Africa,2014,349.581
+Spain,2014,"1,567.79"
+Sri Lanka,2014,51.097
+St. Kitts and Nevis,2014,0.65
+St. Lucia,2014,1.26
+St. Vincent and the Grenadines,2014,0.826
+Sudan,2014,98.222
+Suriname,2014,6.259
+Swaziland,2014,3.402
+Sweden,2014,547.595
+Switzerland,2014,525.688
+Syrian Arab Republic,2014,90.182
+Taiwan Province of China,2014,488.158
+Tajikistan,2014,8.713
+Tanzania,2014,33.392
+Thailand,2014,375.689
+"Timor-Leste, Dem. Rep. of",2014,1.337
+Togo,2014,3.603
+Tonga,2014,0.352
+Trinidad and Tobago,2014,38.656
+Tunisia,2014,53.775
+Turkey,2014,710.833
+Turkmenistan,2014,0
+Uganda,2014,22.991
+Ukraine,2014,175.949
+United Arab Emirates,2014,356.668
+United Kingdom,2014,"2,919.12"
+United States,2014,"17,419.35"
+Uruguay,2014,63.167
+Uzbekistan,2014,58.224
+Vanuatu,2014,0.804
+Venezuela,2014,409.562
+Vietnam,2014,148.914
+"Yemen, Republic of",2014,42.687
+Zambia,2014,23.613
+Zimbabwe,2014,6.851
+"Afghanistan, Rep. of.",2015,0
+Albania,2015,11.591
+Algeria,2015,175.077
+Angola,2015,102.011
+Antigua and Barbuda,2015,1.285
+Argentina,2015,578.705
+Armenia,2015,10.607
+Australia,2015,"1,240.80"
+Austria,2015,372.606
+Azerbaijan,2015,63.983
+"Bahamas, The",2015,0
+Bahrain,2015,30.914
+Bangladesh,2015,202.333
+Barbados,2015,4.451
+Belarus,2015,62.02
+Belgium,2015,458.651
+Belize,2015,1.763
+Benin,2015,7.701
+Bhutan,2015,2.209
+Bolivia,2015,33.537
+Bosnia and Herzegovina,2015,15.568
+Botswana,2015,13.091
+Brazil,2015,"1,799.61"
+Brunei Darussalam,2015,11.636
+Bulgaria,2015,47.167
+Burkina Faso,2015,11.323
+Burundi,2015,2.97
+Cambodia,2015,17.714
+Cameroon,2015,28.524
+Canada,2015,"1,572.78"
+Cape Verde,2015,0
+Central African Republic,2015,1.624
+Chad,2015,11.688
+Chile,2015,240.041
+China,2015,"11,384.76"
+Colombia,2015,274.189
+Comoros,2015,0.589
+"Congo, Democratic Republic of",2015,0
+"Congo, Republic of",2015,0
+Costa Rica,2015,51.618
+Côte d'Ivoire,2015,31.27
+Croatia,2015,48.932
+Cyprus,2015,19.383
+Czech Republic,2015,182.462
+Denmark,2015,291.043
+Djibouti,2015,1.743
+Dominica,2015,0.538
+Dominican Republic,2015,66.575
+Ecuador,2015,98.925
+Egypt,2015,0
+El Salvador,2015,25.652
+Equatorial Guinea,2015,10.025
+Eritrea,2015,4.256
+Estonia,2015,22.934
+Ethiopia,2015,63.022
+Fiji,2015,4.526
+Finland,2015,230.685
+France,2015,"2,422.65"
+Gabon,2015,13.8
+"Gambia, The",2015,0
+Georgia,2015,13.753
+Germany,2015,"3,371.00"
+Ghana,2015,37.679
+Greece,2015,192.98
+Grenada,2015,0.957
+Guatemala,2015,63.218
+Guinea,2015,6.733
+Guinea-Bissau,2015,1.035
+Guyana,2015,3.203
+Haiti,2015,8.797
+Honduras,2015,19.941
+Hong Kong SAR,2015,307.79
+Hungary,2015,118.49
+Iceland,2015,16.738
+India,2015,"2,182.58"
+Indonesia,2015,872.615
+"Iran, Islamic Republic of",2015,0
+Ireland,2015,227.498
+Israel,2015,298.866
+Italy,2015,"1,819.05"
+Jamaica,2015,13.823
+Japan,2015,"4,116.24"
+Jordan,2015,38.21
+Kazakhstan,2015,195.005
+Kenya,2015,63.121
+Kiribati,2015,0.164
+Korea,2015,"1,392.95"
+Kuwait,2015,123.228
+Kyrgyz Republic,2015,7.158
+Lao People's Democratic Republic,2015,0
+Latvia,2015,27.822
+Lebanon,2015,54.395
+Lesotho,2015,2.035
+Liberia,2015,2.015
+Libya,2015,29.721
+Lithuania,2015,41.776
+Luxembourg,2015,57.929
+"Macedonia, Former Yugoslav Republic of",2015,0
+Madagascar,2015,9.514
+Malawi,2015,6.388
+Malaysia,2015,313.479
+Maldives,2015,3.031
+Mali,2015,10.954
+Malta,2015,9.19
+Mauritania,2015,4.677
+Mauritius,2015,11.567
+Mexico,2015,"1,161.48"
+Moldova,2015,6.188
+Mongolia,2015,12.409
+Morocco,2015,103.075
+Mozambique,2015,16.985
+Myanmar,2015,65.775
+Namibia,2015,12.855
+Nepal,2015,21.356
+Netherlands,2015,750.782
+New Zealand,2015,170.59
+Nicaragua,2015,12.321
+Niger,2015,7.119
+Nigeria,2015,492.986
+Norway,2015,397.59
+Oman,2015,60.179
+Pakistan,2015,270.961
+Panama,2015,47.473
+Papua New Guinea,2015,17.995
+Paraguay,2015,29.065
+Peru,2015,179.911
+Philippines,2015,299.314
+Poland,2015,481.235
+Portugal,2015,197.51
+Qatar,2015,192.077
+Romania,2015,174.922
+Russia,2015,"1,235.86"
+Rwanda,2015,8.468
+Samoa,2015,0.867
+São Tomé and Príncipe,2015,0.326
+Saudi Arabia,2015,632.073
+Senegal,2015,13.988
+Serbia,2015,36.555
+Seychelles,2015,1.375
+Sierra Leone,2015,4.266
+Singapore,2015,293.959
+Slovak Republic,2015,86.198
+Slovenia,2015,42.736
+Solomon Islands,2015,1.205
+South Africa,2015,317.285
+Spain,2015,"1,221.39"
+Sri Lanka,2015,79.524
+St. Kitts and Nevis,2015,0.889
+St. Lucia,2015,1.438
+St. Vincent and the Grenadines,2015,0.765
+Sudan,2015,84.331
+Suriname,2015,5.05
+Swaziland,2015,4.305
+Sweden,2015,483.724
+Switzerland,2015,676.979
+Syrian Arab Republic,2015,0
+Taiwan Province of China,2015,518.816
+Tajikistan,2015,8.045
+Tanzania,2015,46.192
+Thailand,2015,373.536
+"Timor-Leste, Dem. Rep. of",2015,0
+Togo,2015,4.152
+Tonga,2015,0.443
+Trinidad and Tobago,2015,27.668
+Tunisia,2015,44.272
+Turkey,2015,722.219
+Turkmenistan,2015,44.362
+Uganda,2015,24.943
+Ukraine,2015,90.138
+United Arab Emirates,2015,339.085
+United Kingdom,2015,"2,864.90"
+United States,2015,"17,968.20"
+Uruguay,2015,54.968
+Uzbekistan,2015,65.953
+Vanuatu,2015,0.771
+Venezuela,2015,131.855
+Vietnam,2015,198.805
+"Yemen, Republic of",2015,0
+Zambia,2015,24.466
+Zimbabwe,2015,13.905
+"Afghanistan, Rep. of.",2016,0
+Albania,2016,12.204
+Algeria,2016,181.71
+Angola,2016,98.815
+Antigua and Barbuda,2016,1.328
+Argentina,2016,578.692
+Armenia,2016,10.672
+Australia,2016,"1,253.00"
+Austria,2016,386.227
+Azerbaijan,2016,63.602
+"Bahamas, The",2016,0
+Bahrain,2016,32.335
+Bangladesh,2016,218.991
+Barbados,2016,4.537
+Belarus,2016,66.37
+Belgium,2016,473.524
+Belize,2016,1.841
+Benin,2016,8.302
+Bhutan,2016,2.465
+Bolivia,2016,35.231
+Bosnia and Herzegovina,2016,16.306
+Botswana,2016,13.011
+Brazil,2016,"1,672.90"
+Brunei Darussalam,2016,11.853
+Bulgaria,2016,48.594
+Burkina Faso,2016,12.239
+Burundi,2016,3.247
+Cambodia,2016,19.198
+Cameroon,2016,30.79
+Canada,2016,"1,592.35"
+Cape Verde,2016,0
+Central African Republic,2016,1.84
+Chad,2016,12.82
+Chile,2016,240.309
+China,2016,"12,253.98"
+Colombia,2016,263.476
+Comoros,2016,0.625
+"Congo, Democratic Republic of",2016,0
+"Congo, Republic of",2016,0
+Costa Rica,2016,54.977
+Côte d'Ivoire,2016,34.284
+Croatia,2016,50.04
+Cyprus,2016,19.894
+Czech Republic,2016,189.982
+Denmark,2016,300.906
+Djibouti,2016,1.93
+Dominica,2016,0.559
+Dominican Republic,2016,69.908
+Ecuador,2016,101.698
+Egypt,2016,0
+El Salvador,2016,26.592
+Equatorial Guinea,2016,10.211
+Eritrea,2016,4.809
+Estonia,2016,24.224
+Ethiopia,2016,70.171
+Fiji,2016,4.747
+Finland,2016,237.111
+France,2016,"2,488.38"
+Gabon,2016,14.24
+"Gambia, The",2016,0
+Georgia,2016,14.27
+Germany,2016,"3,472.51"
+Ghana,2016,42.295
+Greece,2016,192.515
+Grenada,2016,1.005
+Guatemala,2016,66.401
+Guinea,2016,7.067
+Guinea-Bissau,2016,1.116
+Guyana,2016,3.411
+Haiti,2016,8.924
+Honduras,2016,20.457
+Hong Kong SAR,2016,322.166
+Hungary,2016,124.012
+Iceland,2016,17.775
+India,2016,"2,384.73"
+Indonesia,2016,875.75
+"Iran, Islamic Republic of",2016,0
+Ireland,2016,240.454
+Israel,2016,312.434
+Italy,2016,"1,867.57"
+Jamaica,2016,14.128
+Japan,2016,"4,170.64"
+Jordan,2016,40.891
+Kazakhstan,2016,173.199
+Kenya,2016,68.866
+Kiribati,2016,0.166
+Korea,2016,"1,450.05"
+Kuwait,2016,128.538
+Kyrgyz Republic,2016,7.659
+Lao People's Democratic Republic,2016,0
+Latvia,2016,29.288
+Lebanon,2016,57.028
+Lesotho,2016,2.096
+Liberia,2016,2.109
+Libya,2016,32.38
+Lithuania,2016,44.614
+Luxembourg,2016,61.257
+"Macedonia, Former Yugoslav Republic of",2016,0
+Madagascar,2016,9.17
+Malawi,2016,6.149
+Malaysia,2016,350.992
+Maldives,2016,3.228
+Mali,2016,11.882
+Malta,2016,9.721
+Mauritania,2016,4.794
+Mauritius,2016,12.145
+Mexico,2016,"1,187.05"
+Moldova,2016,6.498
+Mongolia,2016,12.96
+Morocco,2016,109.912
+Mozambique,2016,19.043
+Myanmar,2016,71.275
+Namibia,2016,13.703
+Nepal,2016,24.067
+Netherlands,2016,782.934
+New Zealand,2016,165.476
+Nicaragua,2016,13.089
+Niger,2016,7.652
+Nigeria,2016,484.895
+Norway,2016,394.776
+Oman,2016,60.632
+Pakistan,2016,0
+Panama,2016,51.525
+Papua New Guinea,2016,18.191
+Paraguay,2016,30.094
+Peru,2016,180.375
+Philippines,2016,330.232
+Poland,2016,508.857
+Portugal,2016,204.186
+Qatar,2016,192.214
+Romania,2016,183.37
+Russia,2016,"1,178.92"
+Rwanda,2016,9.228
+Samoa,2016,0.9
+São Tomé and Príncipe,2016,0.356
+Saudi Arabia,2016,643.234
+Senegal,2016,15.197
+Serbia,2016,37.74
+Seychelles,2016,1.471
+Sierra Leone,2016,4.563
+Singapore,2016,308.716
+Slovak Republic,2016,90.544
+Slovenia,2016,44.015
+Solomon Islands,2016,1.289
+South Africa,2016,326.541
+Spain,2016,"1,265.12"
+Sri Lanka,2016,86.302
+St. Kitts and Nevis,2016,0.93
+St. Lucia,2016,1.498
+St. Vincent and the Grenadines,2016,0.794
+Sudan,2016,85.222
+Suriname,2016,5.187
+Swaziland,2016,4.357
+Sweden,2016,499.179
+Switzerland,2016,687.591
+Syrian Arab Republic,2016,0
+Taiwan Province of China,2016,540.073
+Tajikistan,2016,7.97
+Tanzania,2016,46.873
+Thailand,2016,393.019
+"Timor-Leste, Dem. Rep. of",2016,0
+Togo,2016,4.499
+Tonga,2016,0.473
+Trinidad and Tobago,2016,28.321
+Tunisia,2016,44.584
+Turkey,2016,721.167
+Turkmenistan,2016,51.271
+Uganda,2016,26.631
+Ukraine,2016,93.812
+United Arab Emirates,2016,356.219
+United Kingdom,2016,"3,054.84"
+United States,2016,"18,697.92"
+Uruguay,2016,57.151
+Uzbekistan,2016,68.699
+Vanuatu,2016,0.832
+Venezuela,2016,133.534
+Vietnam,2016,214.75
+"Yemen, Republic of",2016,0
+Zambia,2016,25.158
+Zimbabwe,2016,14.292
+"Afghanistan, Rep. of.",2017,0
+Albania,2017,13.214
+Algeria,2017,192.256
+Angola,2017,105.369
+Antigua and Barbuda,2017,1.386
+Argentina,2017,589.585
+Armenia,2017,11.074
+Australia,2017,"1,317.16"
+Austria,2017,402.793
+Azerbaijan,2017,70.927
+"Bahamas, The",2017,0
+Bahrain,2017,34.318
+Bangladesh,2017,238.723
+Barbados,2017,4.652
+Belarus,2017,70.997
+Belgium,2017,492.062
+Belize,2017,1.931
+Benin,2017,9.061
+Bhutan,2017,2.748
+Bolivia,2017,38.204
+Bosnia and Herzegovina,2017,17.356
+Botswana,2017,13.843
+Brazil,2017,"1,759.27"
+Brunei Darussalam,2017,13.038
+Bulgaria,2017,50.73
+Burkina Faso,2017,13.433
+Burundi,2017,3.512
+Cambodia,2017,20.86
+Cameroon,2017,33.521
+Canada,2017,"1,682.37"
+Cape Verde,2017,0
+Central African Republic,2017,2.096
+Chad,2017,14.704
+Chile,2017,250.951
+China,2017,"13,173.59"
+Colombia,2017,303.75
+Comoros,2017,0.668
+"Congo, Democratic Republic of",2017,0
+"Congo, Republic of",2017,0
+Costa Rica,2017,58.787
+Côte d'Ivoire,2017,37.908
+Croatia,2017,52.194
+Cyprus,2017,20.767
+Czech Republic,2017,196.987
+Denmark,2017,316.271
+Djibouti,2017,2.14
+Dominica,2017,0.577
+Dominican Republic,2017,73.41
+Ecuador,2017,104.773
+Egypt,2017,0
+El Salvador,2017,27.679
+Equatorial Guinea,2017,10.399
+Eritrea,2017,5.478
+Estonia,2017,25.869
+Ethiopia,2017,77.438
+Fiji,2017,4.973
+Finland,2017,246.361
+France,2017,"2,586.57"
+Gabon,2017,15.478
+"Gambia, The",2017,0
+Georgia,2017,15.677
+Germany,2017,"3,595.41"
+Ghana,2017,46.921
+Greece,2017,201.336
+Grenada,2017,1.055
+Guatemala,2017,70.525
+Guinea,2017,7.587
+Guinea-Bissau,2017,1.208
+Guyana,2017,3.603
+Haiti,2017,9.339
+Honduras,2017,20.999
+Hong Kong SAR,2017,339.378
+Hungary,2017,130.636
+Iceland,2017,18.588
+India,2017,"2,607.41"
+Indonesia,2017,950.438
+"Iran, Islamic Republic of",2017,0
+Ireland,2017,254.356
+Israel,2017,319.393
+Italy,2017,"1,932.94"
+Jamaica,2017,14.713
+Japan,2017,"4,342.16"
+Jordan,2017,43.821
+Kazakhstan,2017,195.269
+Kenya,2017,76.758
+Kiribati,2017,0.169
+Korea,2017,"1,545.81"
+Kuwait,2017,141.776
+Kyrgyz Republic,2017,8.301
+Lao People's Democratic Republic,2017,0
+Latvia,2017,31.416
+Lebanon,2017,59.411
+Lesotho,2017,2.235
+Liberia,2017,2.282
+Libya,2017,36.581
+Lithuania,2017,48.051
+Luxembourg,2017,65.169
+"Macedonia, Former Yugoslav Republic of",2017,0
+Madagascar,2017,9.75
+Malawi,2017,6.489
+Malaysia,2017,392.439
+Maldives,2017,3.483
+Mali,2017,12.913
+Malta,2017,10.343
+Mauritania,2017,5.138
+Mauritius,2017,12.902
+Mexico,2017,"1,251.25"
+Moldova,2017,7.009
+Mongolia,2017,13.699
+Morocco,2017,117.551
+Mozambique,2017,21.244
+Myanmar,2017,79.046
+Namibia,2017,14.924
+Nepal,2017,26.388
+Netherlands,2017,818.492
+New Zealand,2017,172.115
+Nicaragua,2017,13.872
+Niger,2017,8.479
+Nigeria,2017,508.528
+Norway,2017,415.19
+Oman,2017,65.155
+Pakistan,2017,0
+Panama,2017,56.026
+Papua New Guinea,2017,18.924
+Paraguay,2017,31.441
+Peru,2017,193.59
+Philippines,2017,366.753
+Poland,2017,540.186
+Portugal,2017,212.015
+Qatar,2017,212.121
+Romania,2017,196.786
+Russia,2017,"1,309.27"
+Rwanda,2017,10.091
+Samoa,2017,0.912
+São Tomé and Príncipe,2017,0.382
+Saudi Arabia,2017,694.517
+Senegal,2017,16.744
+Serbia,2017,39.804
+Seychelles,2017,1.555
+Sierra Leone,2017,4.918
+Singapore,2017,328.299
+Slovak Republic,2017,96.151
+Slovenia,2017,46.062
+Solomon Islands,2017,1.386
+South Africa,2017,340.529
+Spain,2017,"1,318.83"
+Sri Lanka,2017,94.209
+St. Kitts and Nevis,2017,0.974
+St. Lucia,2017,1.565
+St. Vincent and the Grenadines,2017,0.828
+Sudan,2017,93.817
+Suriname,2017,5.744
+Swaziland,2017,4.445
+Sweden,2017,519.636
+Switzerland,2017,707.527
+Syrian Arab Republic,2017,0
+Taiwan Province of China,2017,565.374
+Tajikistan,2017,8.589
+Tanzania,2017,50.347
+Thailand,2017,411.266
+"Timor-Leste, Dem. Rep. of",2017,0
+Togo,2017,4.918
+Tonga,2017,0.507
+Trinidad and Tobago,2017,30.022
+Tunisia,2017,45.629
+Turkey,2017,761.44
+Turkmenistan,2017,58.193
+Uganda,2017,29.258
+Ukraine,2017,104.307
+United Arab Emirates,2017,382.619
+United Kingdom,2017,"3,232.28"
+United States,2017,"19,555.87"
+Uruguay,2017,59.943
+Uzbekistan,2017,73.457
+Vanuatu,2017,0.891
+Venezuela,2017,144.227
+Vietnam,2017,229.845
+"Yemen, Republic of",2017,0
+Zambia,2017,27.17
+Zimbabwe,2017,14.994
+"Afghanistan, Rep. of.",2018,0
+Albania,2018,14.341
+Algeria,2018,202.179
+Angola,2018,112.533
+Antigua and Barbuda,2018,1.458
+Argentina,2018,602.868
+Armenia,2018,11.63
+Australia,2018,"1,381.51"
+Austria,2018,418.402
+Azerbaijan,2018,74.266
+"Bahamas, The",2018,0
+Bahrain,2018,36.334
+Bangladesh,2018,260.874
+Barbados,2018,4.805
+Belarus,2018,76.023
+Belgium,2018,511.491
+Belize,2018,2.021
+Benin,2018,9.896
+Bhutan,2018,3.141
+Bolivia,2018,41.429
+Bosnia and Herzegovina,2018,18.556
+Botswana,2018,14.814
+Brazil,2018,"1,854.68"
+Brunei Darussalam,2018,14.551
+Bulgaria,2018,53.227
+Burkina Faso,2018,14.778
+Burundi,2018,3.825
+Cambodia,2018,22.765
+Cameroon,2018,36.458
+Canada,2018,"1,773.80"
+Cape Verde,2018,0
+Central African Republic,2018,2.371
+Chad,2018,15.988
+Chile,2018,262.953
+China,2018,"14,272.35"
+Colombia,2018,339.668
+Comoros,2018,0.717
+"Congo, Democratic Republic of",2018,0
+"Congo, Republic of",2018,0
+Costa Rica,2018,62.963
+Côte d'Ivoire,2018,41.84
+Croatia,2018,54.919
+Cyprus,2018,21.735
+Czech Republic,2018,201.46
+Denmark,2018,333.132
+Djibouti,2018,2.372
+Dominica,2018,0.598
+Dominican Republic,2018,77.088
+Ecuador,2018,108.468
+Egypt,2018,0
+El Salvador,2018,28.896
+Equatorial Guinea,2018,10.547
+Eritrea,2018,6.289
+Estonia,2018,27.646
+Ethiopia,2018,84.407
+Fiji,2018,5.214
+Finland,2018,256.596
+France,2018,"2,690.48"
+Gabon,2018,16.648
+"Gambia, The",2018,0
+Georgia,2018,17.074
+Germany,2018,"3,721.37"
+Ghana,2018,51.233
+Greece,2018,211.9
+Grenada,2018,1.108
+Guatemala,2018,75.129
+Guinea,2018,8.165
+Guinea-Bissau,2018,1.313
+Guyana,2018,3.802
+Haiti,2018,9.83
+Honduras,2018,21.646
+Hong Kong SAR,2018,358.665
+Hungary,2018,137.335
+Iceland,2018,19.267
+India,2018,"2,846.16"
+Indonesia,2018,"1,021.23"
+"Iran, Islamic Republic of",2018,0
+Ireland,2018,267.745
+Israel,2018,325.563
+Italy,2018,"1,997.84"
+Jamaica,2018,15.426
+Japan,2018,"4,446.33"
+Jordan,2018,46.937
+Kazakhstan,2018,218.887
+Kenya,2018,85.263
+Kiribati,2018,0.173
+Korea,2018,"1,649.08"
+Kuwait,2018,155.529
+Kyrgyz Republic,2018,8.991
+Lao People's Democratic Republic,2018,0
+Latvia,2018,33.696
+Lebanon,2018,62.206
+Lesotho,2018,2.408
+Liberia,2018,2.499
+Libya,2018,41.529
+Lithuania,2018,50.503
+Luxembourg,2018,69.332
+"Macedonia, Former Yugoslav Republic of",2018,0
+Madagascar,2018,10.405
+Malawi,2018,6.898
+Malaysia,2018,437.428
+Maldives,2018,3.768
+Mali,2018,13.967
+Malta,2018,10.997
+Mauritania,2018,5.514
+Mauritius,2018,13.699
+Mexico,2018,"1,322.92"
+Moldova,2018,7.567
+Mongolia,2018,14.82
+Morocco,2018,126.147
+Mozambique,2018,23.735
+Myanmar,2018,87.474
+Namibia,2018,16.215
+Nepal,2018,28.555
+Netherlands,2018,855.637
+New Zealand,2018,179.016
+Nicaragua,2018,14.702
+Niger,2018,9.378
+Nigeria,2018,534.715
+Norway,2018,436.472
+Oman,2018,69.107
+Pakistan,2018,0
+Panama,2018,61.149
+Papua New Guinea,2018,19.858
+Paraguay,2018,32.84
+Peru,2018,207.923
+Philippines,2018,407.942
+Poland,2018,577.055
+Portugal,2018,219.857
+Qatar,2018,232.669
+Romania,2018,211.094
+Russia,2018,"1,447.26"
+Rwanda,2018,11.105
+Samoa,2018,0.941
+São Tomé and Príncipe,2018,0.413
+Saudi Arabia,2018,749.201
+Senegal,2018,18.504
+Serbia,2018,42.946
+Seychelles,2018,1.649
+Sierra Leone,2018,5.37
+Singapore,2018,348.796
+Slovak Republic,2018,101.932
+Slovenia,2018,48.168
+Solomon Islands,2018,1.492
+South Africa,2018,357.046
+Spain,2018,"1,372.18"
+Sri Lanka,2018,102.841
+St. Kitts and Nevis,2018,1.02
+St. Lucia,2018,1.632
+St. Vincent and the Grenadines,2018,0.866
+Sudan,2018,101.047
+Suriname,2018,6.251
+Swaziland,2018,4.555
+Sweden,2018,541.467
+Switzerland,2018,727.226
+Syrian Arab Republic,2018,0
+Taiwan Province of China,2018,591.253
+Tajikistan,2018,9.328
+Tanzania,2018,54.761
+Thailand,2018,432.409
+"Timor-Leste, Dem. Rep. of",2018,0
+Togo,2018,5.367
+Tonga,2018,0.531
+Trinidad and Tobago,2018,31.906
+Tunisia,2018,46.962
+Turkey,2018,804.563
+Turkmenistan,2018,65.462
+Uganda,2018,31.577
+Ukraine,2018,115.455
+United Arab Emirates,2018,410.422
+United Kingdom,2018,"3,425.54"
+United States,2018,"20,493.25"
+Uruguay,2018,63.134
+Uzbekistan,2018,78.31
+Vanuatu,2018,0.949
+Venezuela,2018,155.096
+Vietnam,2018,247.415
+"Yemen, Republic of",2018,0
+Zambia,2018,29.911
+Zimbabwe,2018,15.736
+"Afghanistan, Rep. of.",2019,0
+Albania,2019,15.553
+Algeria,2019,210.906
+Angola,2019,119.403
+Antigua and Barbuda,2019,1.536
+Argentina,2019,617.386
+Armenia,2019,12.273
+Australia,2019,"1,442.47"
+Austria,2019,433.75
+Azerbaijan,2019,83.996
+"Bahamas, The",2019,0
+Bahrain,2019,38.446
+Bangladesh,2019,285.329
+Barbados,2019,4.999
+Belarus,2019,82.437
+Belgium,2019,531.189
+Belize,2019,2.114
+Benin,2019,10.765
+Bhutan,2019,3.468
+Bolivia,2019,44.903
+Bosnia and Herzegovina,2019,19.897
+Botswana,2019,16.065
+Brazil,2019,"1,953.67"
+Brunei Darussalam,2019,17.129
+Bulgaria,2019,56.032
+Burkina Faso,2019,16.266
+Burundi,2019,4.145
+Cambodia,2019,24.83
+Cameroon,2019,39.594
+Canada,2019,"1,860.06"
+Cape Verde,2019,0
+Central African Republic,2019,2.637
+Chad,2019,17.44
+Chile,2019,276.484
+China,2019,"15,620.71"
+Colombia,2019,379.025
+Comoros,2019,0.769
+"Congo, Democratic Republic of",2019,0
+"Congo, Republic of",2019,0
+Costa Rica,2019,67.209
+Côte d'Ivoire,2019,45.956
+Croatia,2019,57.948
+Cyprus,2019,22.747
+Czech Republic,2019,203.527
+Denmark,2019,349.886
+Djibouti,2019,2.614
+Dominica,2019,0.621
+Dominican Republic,2019,80.95
+Ecuador,2019,112.418
+Egypt,2019,0
+El Salvador,2019,30.081
+Equatorial Guinea,2019,10.681
+Eritrea,2019,7.23
+Estonia,2019,29.537
+Ethiopia,2019,91.98
+Fiji,2019,5.47
+Finland,2019,267.335
+France,2019,"2,801.75"
+Gabon,2019,17.773
+"Gambia, The",2019,0
+Georgia,2019,18.632
+Germany,2019,"3,846.70"
+Ghana,2019,54.993
+Greece,2019,222.361
+Grenada,2019,1.164
+Guatemala,2019,79.96
+Guinea,2019,8.71
+Guinea-Bissau,2019,1.426
+Guyana,2019,4.012
+Haiti,2019,10.397
+Honduras,2019,22.357
+Hong Kong SAR,2019,379.776
+Hungary,2019,143.759
+Iceland,2019,19.757
+India,2019,"3,131.95"
+Indonesia,2019,"1,103.29"
+"Iran, Islamic Republic of",2019,0
+Ireland,2019,280.731
+Israel,2019,331.085
+Italy,2019,"2,061.97"
+Jamaica,2019,16.213
+Japan,2019,"4,590.91"
+Jordan,2019,50.276
+Kazakhstan,2019,243.072
+Kenya,2019,94.303
+Kiribati,2019,0.175
+Korea,2019,"1,763.36"
+Kuwait,2019,167.562
+Kyrgyz Republic,2019,9.715
+Lao People's Democratic Republic,2019,0
+Latvia,2019,36.003
+Lebanon,2019,66.123
+Lesotho,2019,2.538
+Liberia,2019,2.733
+Libya,2019,46.746
+Lithuania,2019,53.269
+Luxembourg,2019,73.645
+"Macedonia, Former Yugoslav Republic of",2019,0
+Madagascar,2019,11.13
+Malawi,2019,7.374
+Malaysia,2019,487.731
+Maldives,2019,4.086
+Mali,2019,15.037
+Malta,2019,11.656
+Mauritania,2019,5.925
+Mauritius,2019,14.526
+Mexico,2019,"1,404.92"
+Moldova,2019,8.235
+Mongolia,2019,16.069
+Morocco,2019,135.994
+Mozambique,2019,26.495
+Myanmar,2019,96.408
+Namibia,2019,17.37
+Nepal,2019,30.271
+Netherlands,2019,893.292
+New Zealand,2019,185.929
+Nicaragua,2019,15.581
+Niger,2019,10.274
+Nigeria,2019,565.231
+Norway,2019,453.441
+Oman,2019,72.115
+Pakistan,2019,0
+Panama,2019,66.299
+Papua New Guinea,2019,21.043
+Paraguay,2019,34.237
+Peru,2019,221.314
+Philippines,2019,454.796
+Poland,2019,617.513
+Portugal,2019,227.453
+Qatar,2019,251.129
+Romania,2019,225.12
+Russia,2019,"1,613.84"
+Rwanda,2019,12.132
+Samoa,2019,0.976
+São Tomé and Príncipe,2019,0.453
+Saudi Arabia,2019,799.75
+Senegal,2019,20.464
+Serbia,2019,46.258
+Seychelles,2019,1.738
+Sierra Leone,2019,5.865
+Singapore,2019,370.063
+Slovak Republic,2019,107.913
+Slovenia,2019,50.312
+Solomon Islands,2019,1.611
+South Africa,2019,374.482
+Spain,2019,"1,427.74"
+Sri Lanka,2019,112.264
+St. Kitts and Nevis,2019,1.068
+St. Lucia,2019,1.702
+St. Vincent and the Grenadines,2019,0.905
+Sudan,2019,109.358
+Suriname,2019,6.738
+Swaziland,2019,4.657
+Sweden,2019,562.124
+Switzerland,2019,746.28
+Syrian Arab Republic,2019,0
+Taiwan Province of China,2019,618.101
+Tajikistan,2019,10.182
+Tanzania,2019,59.349
+Thailand,2019,454.082
+"Timor-Leste, Dem. Rep. of",2019,0
+Togo,2019,5.836
+Tonga,2019,0.558
+Trinidad and Tobago,2019,33.896
+Tunisia,2019,50.171
+Turkey,2019,851.773
+Turkmenistan,2019,73.974
+Uganda,2019,34.188
+Ukraine,2019,125.991
+United Arab Emirates,2019,438.118
+United Kingdom,2019,"3,616.82"
+United States,2019,"21,404.19"
+Uruguay,2019,66.532
+Uzbekistan,2019,83.478
+Vanuatu,2019,1.002
+Venezuela,2019,170.41
+Vietnam,2019,265.987
+"Yemen, Republic of",2019,0
+Zambia,2019,32.957
+Zimbabwe,2019,16.609
+"Afghanistan, Rep. of.",2020,0
+Albania,2020,16.996
+Algeria,2020,219.16
+Angola,2020,127.15
+Antigua and Barbuda,2020,1.617
+Argentina,2020,633.889
+Armenia,2020,12.939
+Australia,2020,"1,515.70"
+Austria,2020,452.657
+Azerbaijan,2020,87.276
+"Bahamas, The",2020,0
+Bahrain,2020,40.522
+Bangladesh,2020,310.858
+Barbados,2020,5.222
+Belarus,2020,89.315
+Belgium,2020,556.197
+Belize,2020,2.207
+Benin,2020,11.659
+Bhutan,2020,3.798
+Bolivia,2020,48.626
+Bosnia and Herzegovina,2020,21.559
+Botswana,2020,17.456
+Brazil,2020,"2,054.41"
+Brunei Darussalam,2020,19.1
+Bulgaria,2020,59.506
+Burkina Faso,2020,18.003
+Burundi,2020,4.489
+Cambodia,2020,27.089
+Cameroon,2020,43.247
+Canada,2020,"1,958.15"
+Cape Verde,2020,0
+Central African Republic,2020,2.916
+Chad,2020,18.547
+Chile,2020,292.019
+China,2020,"17,100.06"
+Colombia,2020,421.246
+Comoros,2020,0.834
+"Congo, Democratic Republic of",2020,0
+"Congo, Republic of",2020,0
+Costa Rica,2020,71.816
+Côte d'Ivoire,2020,50.86
+Croatia,2020,61.381
+Cyprus,2020,23.907
+Czech Republic,2020,206.851
+Denmark,2020,369.686
+Djibouti,2020,2.854
+Dominica,2020,0.646
+Dominican Republic,2020,85.005
+Ecuador,2020,116.105
+Egypt,2020,0
+El Salvador,2020,31.358
+Equatorial Guinea,2020,10.856
+Eritrea,2020,7.584
+Estonia,2020,31.856
+Ethiopia,2020,100.324
+Fiji,2020,5.739
+Finland,2020,281.26
+France,2020,"2,940.19"
+Gabon,2020,18.899
+"Gambia, The",2020,0
+Georgia,2020,20.331
+Germany,2020,"4,004.94"
+Ghana,2020,58.288
+Greece,2020,234.579
+Grenada,2020,1.223
+Guatemala,2020,85.228
+Guinea,2020,10.326
+Guinea-Bissau,2020,1.563
+Guyana,2020,4.223
+Haiti,2020,10.97
+Honduras,2020,23.101
+Hong Kong SAR,2020,405.781
+Hungary,2020,150.095
+Iceland,2020,19.991
+India,2020,"3,443.60"
+Indonesia,2020,"1,193.91"
+"Iran, Islamic Republic of",2020,0
+Ireland,2020,295.976
+Israel,2020,339.065
+Italy,2020,"2,143.80"
+Jamaica,2020,17.084
+Japan,2020,"4,746.88"
+Jordan,2020,53.852
+Kazakhstan,2020,268.657
+Kenya,2020,104.043
+Kiribati,2020,0.18
+Korea,2020,"1,898.76"
+Kuwait,2020,178.517
+Kyrgyz Republic,2020,10.43
+Lao People's Democratic Republic,2020,0
+Latvia,2020,38.834
+Lebanon,2020,70.286
+Lesotho,2020,2.682
+Liberia,2020,2.984
+Libya,2020,53.805
+Lithuania,2020,56.8
+Luxembourg,2020,78.827
+"Macedonia, Former Yugoslav Republic of",2020,0
+Madagascar,2020,11.89
+Malawi,2020,7.912
+Malaysia,2020,544.418
+Maldives,2020,4.434
+Mali,2020,16.13
+Malta,2020,12.432
+Mauritania,2020,6.291
+Mauritius,2020,15.51
+Mexico,2020,"1,495.66"
+Moldova,2020,8.998
+Mongolia,2020,17.871
+Morocco,2020,146.854
+Mozambique,2020,32.223
+Myanmar,2020,106.221
+Namibia,2020,18.661
+Nepal,2020,32.1
+Netherlands,2020,940.749
+New Zealand,2020,194.677
+Nicaragua,2020,16.513
+Niger,2020,11.4
+Nigeria,2020,594.992
+Norway,2020,470.99
+Oman,2020,74.402
+Pakistan,2020,0
+Panama,2020,71.679
+Papua New Guinea,2020,22.366
+Paraguay,2020,35.722
+Peru,2020,235.091
+Philippines,2020,507.251
+Poland,2020,663.519
+Portugal,2020,237.171
+Qatar,2020,267.515
+Romania,2020,242.889
+Russia,2020,"1,791.79"
+Rwanda,2020,13.335
+Samoa,2020,1.016
+São Tomé and Príncipe,2020,0.5
+Saudi Arabia,2020,848.557
+Senegal,2020,22.828
+Serbia,2020,50.031
+Seychelles,2020,1.825
+Sierra Leone,2020,6.373
+Singapore,2020,394.977
+Slovak Republic,2020,115.111
+Slovenia,2020,52.951
+Solomon Islands,2020,1.751
+South Africa,2020,394.715
+Spain,2020,"1,497.67"
+Sri Lanka,2020,122.55
+St. Kitts and Nevis,2020,1.117
+St. Lucia,2020,1.767
+St. Vincent and the Grenadines,2020,0.944
+Sudan,2020,117.403
+Suriname,2020,7.266
+Swaziland,2020,4.787
+Sweden,2020,585.743
+Switzerland,2020,770.927
+Syrian Arab Republic,2020,0
+Taiwan Province of China,2020,650.902
+Tajikistan,2020,11.111
+Tanzania,2020,64.145
+Thailand,2020,473.997
+"Timor-Leste, Dem. Rep. of",2020,0
+Togo,2020,6.394
+Tonga,2020,0.574
+Trinidad and Tobago,2020,36.113
+Tunisia,2020,53.537
+Turkey,2020,905.844
+Turkmenistan,2020,83.993
+Uganda,2020,37.688
+Ukraine,2020,137.856
+United Arab Emirates,2020,468.902
+United Kingdom,2020,"3,851.98"
+United States,2020,"22,294.11"
+Uruguay,2020,70.107
+Uzbekistan,2020,88.986
+Vanuatu,2020,1.057
+Venezuela,2020,184.364
+Vietnam,2020,287.257
+"Yemen, Republic of",2020,0
+Zambia,2020,36.316
+Zimbabwe,2020,17.529
+"Afghanistan, Rep. of.",2021,0
+Albania,2021,16.77
+Algeria,2021,163.812
+Angola,2021,70.339
+Antigua and Barbuda,2021,1.405
+Argentina,2021,455.172
+Armenia,2021,13.612
+Australia,2021,"1,610.56"
+Austria,2021,481.209
+Azerbaijan,2021,52.645
+"Bahamas, The",2021,0
+Bahrain,2021,39.104
+Bangladesh,2021,355.689
+Barbados,2021,4.648
+Belarus,2021,65.754
+Belgium,2021,581.848
+Belize,2021,1.909
+Benin,2021,18.067
+Bhutan,2021,2.48
+Bolivia,2021,38.547
+Bosnia and Herzegovina,2021,21.692
+Botswana,2021,17.605
+Brazil,2021,"1,645.84"
+Brunei Darussalam,2021,15.686
+Bulgaria,2021,77.907
+Burkina Faso,2021,19.932
+Burundi,2021,3.193
+Cambodia,2021,26.08
+Cameroon,2021,44.806
+Canada,2021,"2,015.98"
+Cape Verde,2021,0
+Central African Republic,2021,2.587
+Chad,2021,12.345
+Chile,2021,331.25
+China,2021,"16,862.98"
+Colombia,2021,300.791
+Comoros,2021,1.281
+"Congo, Democratic Republic of",2021,0
+"Congo, Republic of",2021,0
+Costa Rica,2021,61.46
+Côte d'Ivoire,2021,68.845
+Croatia,2021,63.399
+Cyprus,2021,26.546
+Czech Republic,2021,276.914
+Denmark,2021,396.666
+Djibouti,2021,3.654
+Dominica,2021,0.571
+Dominican Republic,2021,89.502
+Ecuador,2021,104.483
+Egypt,2021,396.328
+El Salvador,2021,27.665
+Equatorial Guinea,2021,12.528
+Eritrea,2021,2.254
+Estonia,2021,36.039
+Ethiopia,2021,92.757
+Fiji,2021,4.639
+Finland,2021,296.016
+France,2021,"2,940.43"
+Gabon,2021,18.293
+"Gambia, The",2021,0
+Georgia,2021,17.846
+Germany,2021,"4,230.17"
+Ghana,2021,75.487
+Greece,2021,211.645
+Grenada,2021,1.083
+Guatemala,2021,83.305
+Guinea,2021,16.724
+Guinea-Bissau,2021,1.592
+Guyana,2021,7.395
+Haiti,2021,20.143
+Honduras,2021,26.325
+Hong Kong SAR,2021,369.722
+Hungary,2021,180.959
+Iceland,2021,25.476
+India,2021,"2,946.06"
+Indonesia,2021,"1,150.25"
+"Iran, Islamic Republic of",2021,0
+Ireland,2021,516.253
+Israel,2021,467.532
+Italy,2021,"2,120.23"
+Jamaica,2021,14.857
+Japan,2021,"5,103.11"
+Jordan,2021,45.344
+Kazakhstan,2021,194.024
+Kenya,2021,109.491
+Kiribati,2021,0.232
+Korea,2021,"1,823.85"
+Kuwait,2021,132.266
+Kyrgyz Republic,2021,8.15
+Lao People's Democratic Republic,2021,0
+Latvia,2021,37.199
+Lebanon,2021,0
+Lesotho,2021,2.478
+Liberia,2021,3.384
+Libya,2021,27.3
+Lithuania,2021,62.635
+Luxembourg,2021,83.771
+"Macedonia, Former Yugoslav Republic of",2021,0
+Madagascar,2021,14.101
+Malawi,2021,12.15
+Malaysia,2021,371.114
+Maldives,2021,4.573
+Mali,2021,19.563
+Malta,2021,16.695
+Mauritania,2021,9.164
+Mauritius,2021,10.998
+Mexico,2021,"1,285.52"
+Moldova,2021,12.396
+Mongolia,2021,14.28
+Morocco,2021,126.035
+Mozambique,2021,15.833
+Myanmar,2021,66.74
+Namibia,2021,12.213
+Nepal,2021,34.265
+Netherlands,2021,"1,007.56"
+New Zealand,2021,247.64
+Nicaragua,2021,13.397
+Niger,2021,15.637
+Nigeria,2021,480.482
+Norway,2021,445.507
+Oman,2021,80.611
+Pakistan,2021,0
+Panama,2021,60.121
+Papua New Guinea,2021,26.461
+Paraguay,2021,36.973
+Peru,2021,225.858
+Philippines,2021,385.737
+Poland,2021,655.332
+Portugal,2021,251.709
+Qatar,2021,169.184
+Romania,2021,287.279
+Russia,2021,"1,647.57"
+Rwanda,2021,10.395
+Samoa,2021,0.78
+São Tomé and Príncipe,2021,0.534
+Saudi Arabia,2021,842.588
+Senegal,2021,27.576
+Serbia,2021,60.669
+Seychelles,2021,1.288
+Sierra Leone,2021,4.407
+Singapore,2021,378.645
+Slovak Republic,2021,116.748
+Slovenia,2021,60.89
+Solomon Islands,2021,1.649
+South Africa,2021,415.315
+Spain,2021,"1,439.96"
+Sri Lanka,2021,80.785
+St. Kitts and Nevis,2021,0.976
+St. Lucia,2021,1.715
+St. Vincent and the Grenadines,2021,0.769
+Sudan,2021,35.919
+Suriname,2021,2.817
+Swaziland,2021,0
+Sweden,2021,622.365
+Switzerland,2021,810.83
+Syrian Arab Republic,2021,0
+Taiwan Province of China,2021,785.589
+Tajikistan,2021,8.104
+Tanzania,2021,69.238
+Thailand,2021,546.223
+"Timor-Leste, Dem. Rep. of",2021,0
+Togo,2021,8.493
+Tonga,2021,0.501
+Trinidad and Tobago,2021,21.599
+Tunisia,2021,42.733
+Turkey,2021,795.952
+Turkmenistan,2021,53.087
+Uganda,2021,43.243
+Ukraine,2021,181.038
+United Arab Emirates,2021,410.158
+United Kingdom,2021,"3,108.42"
+United States,2021,"22,939.58"
+Uruguay,2021,60.108
+Uzbekistan,2021,65.503
+Vanuatu,2021,0.999
+Venezuela,2021,44.893
+Vietnam,2021,368.002
+"Yemen, Republic of",2021,0
+Zambia,2021,21.699
+Zimbabwe,2021,25.791
+"Afghanistan, Rep. of.",2022,0
+Albania,2022,18.012
+Algeria,2022,168.195
+Angola,2022,74.953
+Antigua and Barbuda,2022,1.534
+Argentina,2022,483.765
+Armenia,2022,15.06
+Australia,2022,"1,677.45"
+Austria,2022,520.343
+Azerbaijan,2022,54.725
+"Bahamas, The",2022,0
+Bahrain,2022,41.057
+Bangladesh,2022,390.608
+Barbados,2022,5.142
+Belarus,2022,70.632
+Belgium,2022,619.16
+Belize,2022,2.062
+Benin,2022,19.917
+Bhutan,2022,2.74
+Bolivia,2022,40.895
+Bosnia and Herzegovina,2022,23.006
+Botswana,2022,19.002
+Brazil,2022,"1,810.61"
+Brunei Darussalam,2022,16.263
+Bulgaria,2022,84.308
+Burkina Faso,2022,21.887
+Burundi,2022,3.396
+Cambodia,2022,27.985
+Cameroon,2022,48.29
+Canada,2022,"2,189.79"
+Cape Verde,2022,0
+Central African Republic,2022,2.797
+Chad,2022,12.953
+Chile,2022,352.664
+China,2022,"18,463.13"
+Colombia,2022,319.29
+Comoros,2022,1.363
+"Congo, Democratic Republic of",2022,0
+"Congo, Republic of",2022,0
+Costa Rica,2022,64.374
+Côte d'Ivoire,2022,75.075
+Croatia,2022,68.525
+Cyprus,2022,28.291
+Czech Republic,2022,302.061
+Denmark,2022,414.55
+Djibouti,2022,3.932
+Dominica,2022,0.628
+Dominican Republic,2022,97.371
+Ecuador,2022,109.975
+Egypt,2022,438.348
+El Salvador,2022,29.316
+Equatorial Guinea,2022,12.074
+Eritrea,2022,2.484
+Estonia,2022,39.542
+Ethiopia,2022,0
+Fiji,2022,5.01
+Finland,2022,314.538
+France,2022,"3,140.03"
+Gabon,2022,19.632
+"Gambia, The",2022,0
+Georgia,2022,19.688
+Germany,2022,"4,557.35"
+Ghana,2022,82.018
+Greece,2022,224.894
+Grenada,2022,1.16
+Guatemala,2022,89.214
+Guinea,2022,18.223
+Guinea-Bissau,2022,1.721
+Guyana,2022,9.837
+Haiti,2022,18.825
+Honduras,2022,27.923
+Hong Kong SAR,2022,389.977
+Hungary,2022,198.992
+Iceland,2022,27.172
+India,2022,"3,250.08"
+Indonesia,2022,"1,247.35"
+"Iran, Islamic Republic of",2022,0
+Ireland,2022,550.518
+Israel,2022,501.409
+Italy,2022,"2,272.27"
+Jamaica,2022,15.63
+Japan,2022,"5,383.68"
+Jordan,2022,47.5
+Kazakhstan,2022,203.666
+Kenya,2022,116.641
+Kiribati,2022,0.245
+Korea,2022,"1,907.66"
+Kuwait,2022,138.78
+Kyrgyz Republic,2022,8.928
+Lao People's Democratic Republic,2022,0
+Latvia,2022,40.83
+Lebanon,2022,0
+Lesotho,2022,2.592
+Liberia,2022,3.664
+Libya,2022,29.202
+Lithuania,2022,67.659
+Luxembourg,2022,89.683
+"Macedonia, Former Yugoslav Republic of",2022,0
+Madagascar,2022,15.402
+Malawi,2022,12.008
+Malaysia,2022,415.375
+Maldives,2022,5.296
+Mali,2022,21.261
+Malta,2022,18.209
+Mauritania,2022,9.336
+Mauritius,2022,11.954
+Mexico,2022,"1,371.64"
+Moldova,2022,13.315
+Mongolia,2022,15.83
+Morocco,2022,132.645
+Mozambique,2022,16.759
+Myanmar,2022,63.052
+Namibia,2022,13.122
+Nepal,2022,36.296
+Netherlands,2022,"1,070.75"
+New Zealand,2022,267.636
+Nicaragua,2022,13.948
+Niger,2022,17.261
+Nigeria,2022,555.346
+Norway,2022,458.398
+Oman,2022,85.719
+Pakistan,2022,0
+Panama,2022,64.366
+Papua New Guinea,2022,28.31
+Paraguay,2022,39.197
+Peru,2022,231.691
+Philippines,2022,406.107
+Poland,2022,720.35
+Portugal,2022,271.191
+Qatar,2022,180.883
+Romania,2022,314.876
+Russia,2022,"1,703.53"
+Rwanda,2022,11.035
+Samoa,2022,0.808
+São Tomé and Príncipe,2022,0.573
+Saudi Arabia,2022,876.148
+Senegal,2022,30.039
+Serbia,2022,65.697
+Seychelles,2022,1.751
+Sierra Leone,2022,4.587
+Singapore,2022,396.995
+Slovak Republic,2022,127.497
+Slovenia,2022,65.475
+Solomon Islands,2022,1.798
+South Africa,2022,435.212
+Spain,2022,"1,570.91"
+Sri Lanka,2022,83.315
+St. Kitts and Nevis,2022,1.092
+St. Lucia,2022,1.998
+St. Vincent and the Grenadines,2022,0.855
+Sudan,2022,37.769
+Suriname,2022,2.937
+Swaziland,2022,0
+Sweden,2022,660.918
+Switzerland,2022,862.819
+Syrian Arab Republic,2022,0
+Taiwan Province of China,2022,850.528
+Tajikistan,2022,8.756
+Tanzania,2022,74.536
+Thailand,2022,585.586
+"Timor-Leste, Dem. Rep. of",2022,0
+Togo,2022,9.357
+Tonga,2022,0.54
+Trinidad and Tobago,2022,23.082
+Tunisia,2022,45.454
+Turkey,2022,844.534
+Turkmenistan,2022,60.263
+Uganda,2022,47
+Ukraine,2022,203.925
+United Arab Emirates,2022,427.93
+United Kingdom,2022,"3,442.21"
+United States,2022,"24,796.08"
+Uruguay,2022,63.741
+Uzbekistan,2022,72.762
+Vanuatu,2022,1.06
+Venezuela,2022,43.546
+Vietnam,2022,415.493
+"Yemen, Republic of",2022,0
+Zambia,2022,23.967
+Zimbabwe,2022,27.806
