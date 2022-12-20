@@ -9,8 +9,6 @@ Therefore this is what this project attempts to solve. It attempts to display al
 #### Web Scraping + Data Cleaning (Python + Pandas):
 Due to the data coming in many different formats, the data has to be cleansed and adjusted to ensure compatability between different data. This includes dealing with non-existent data or different namings of countries throughout all dataframes. This extends to finding out how to deal with filling in data for averages
 
-<br>
-
 #### Creation of Final Averaged Graph (Python + Pandas):
 To create a comparison to find what is the best country according to my definitions. I had to make a compilation of all the different metrics to combine the data, however, this data was not easily available. Therefore, I performed an almagamation of the different data, where I encountered an issue where certain countries do not have data available for a certain metric. However, it does not make sense to take them out of the race. Therefore, I allowed these countries to take an average value from the other countries temporarily until they are able to grab the data needed.
 
