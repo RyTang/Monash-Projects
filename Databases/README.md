@@ -15,14 +15,19 @@ Below are the table of contents and projects that I've done in this unit. It wil
 The situation being depicted is not actually from a Real-Life Association. They are just modelled to project a scenario between a client and a designer as best as possible to train students.
 
 ## Table of Contents:
-1. [Conceptual Model Design](#animal-doctors-conceptual-model)
-1. [Normalisation Process Design](#animal-doctors-normalisation-process)
-1. [Logical Model Design](#animal-doctors-logical-model)
-1. [Animal Doctor Synopsis (If you're interested in the brief)](#animal-doctor-synopsis)
+- [Databases](#databases)
+  - [__Disclaimer__:](#disclaimer)
+  - [Table of Contents:](#table-of-contents)
+  - [Animal Doctors Conceptual Model](#animal-doctors-conceptual-model)
+  - [Animal Doctors Normalisation Process](#animal-doctors-normalisation-process)
+  - [Animal Doctors Logical Model](#animal-doctors-logical-model)
+  - [Animal Doctor Synopsis](#animal-doctor-synopsis)
 
 
 ## Animal Doctors Conceptual Model
 [File Preview](https://github.com/RyTang/Monash-Projects/blob/main/Databases/ad_conceptual.pdf)
+
+![Conceptual Model](Conceptual_Model.png)
 
 This is a version of the conceptual model that I have created based on the situation given from Animal Doctors.
 
@@ -33,6 +38,7 @@ Conducting the normalisation process based on administration forms used by Anima
 
 ## Animal Doctors Logical Model
 [File Preview](https://github.com/RyTang/Monash-Projects/blob/main/Databases/ad_logical.pdf)
+![Logical Model](Logical_Model.png)
 
 The merging of the information gathered from both conceptual model and normalisation to create a logical model. The logical model was then created using Oracle.
 
