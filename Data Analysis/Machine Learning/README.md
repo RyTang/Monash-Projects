@@ -47,10 +47,13 @@ An in-depth exploration of the process can be found in the report [here](https:/
 
 ## Results of Model
 ![Results](model_comparison_1.png)
+
 Model Comparisons to a Decision tree with omitted variables
 
 ![Results](model_comparison_2.png)
+
 Model Comparisons to Artifical Neural Network Model
 
 ![ROC_CURVE](ROC_curve.png)
+
 ROC Curve Comparison of Improved Random Forest vs Original
