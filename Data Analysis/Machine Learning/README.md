@@ -1,9 +1,8 @@
 # Will it be Warmer Tomorrow?
-#### *A Machine Learning Project by Ryan Li Jian Tang*
+*A Machine Learning Project by Ryan Li Jian Tang*
 
 ## Table of Contents:
 - [Will it be Warmer Tomorrow?](#will-it-be-warmer-tomorrow)
-      - [*A Machine Learning Project by Ryan Li Jian Tang*](#a-machine-learning-project-by-ryan-li-jian-tang)
   - [Table of Contents:](#table-of-contents)
   - [Project Synopsis](#project-synopsis)
   - [Programming Language Used](#programming-language-used)
@@ -13,7 +12,7 @@
 
 [Proper Report](https://github.com/RyTang/Monash-Projects/blob/main/Data%20Analysis/Machine%20Learning/Data%20Report.pdf)
 
-[R Code]()
+[R Code](https://github.com/RyTang/Monash-Projects/blob/main/Data%20Analysis/Machine%20Learning/Analysis.R)
 
 ## Project Synopsis
 
