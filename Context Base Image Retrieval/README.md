@@ -13,7 +13,7 @@ This is an Image Processing project done in **MatLab**, to create from Scratch a
 - DCT (Discrete Cosine Transform Image)
 
 ## Input Output Flow
-![Flow](flow.png)
+![Flow](images/Flow.png)
 
 ## General Process Done:
 1. Data Preparation (Image Processing)
