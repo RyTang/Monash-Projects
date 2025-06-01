@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#SBATCH --account=za99
+#SBATCH --job-name=fasterrcnn
+#SBATCH --time=168:00:00
+#SBATCH --mem=36G
+#SBATCH --ntasks=9
+#SBATCH --cpus-per-task=1
+#SBATCH --ntasks-per-node=9
+#SBATCH --output=fasterrcnn.%j.out
+
+module load anaconda/2019.03-Python3.7-gcc5
+source activate /scratch/za99/ylee0026/conda_envs/venv
+
+conda install pytorch torchvision torchaudio -c pytorch
+pip install -U scikit-learn
+pip install -U gensim
+pip install pycocotools
+pip install -U textblob
+python -m textblob.download_corpora
+
+python3 preprocess/boxes.py --symbol_annotation_filename "data/annotations/Symbols.json"
+python3 preprocess/labels.py --symbol_annotation_filename "data/annotations/Symbols.json"
+
+python3 fasterrcnn_train.py

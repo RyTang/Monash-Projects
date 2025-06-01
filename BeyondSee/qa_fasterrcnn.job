@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#SBATCH --account=za99
+#SBATCH --job-name=qa-fasterrcnn
+#SBATCH --time=168:00:00
+#SBATCH --mem=36G
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu
+#SBATCH --output=qa-fasterrcnn.%j.out
+
+module load anaconda/2019.03-Python3.7-gcc5
+source activate /scratch/za99/jchu0050/conda_envs/joEnv
+
+#conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -U scikit-learn
+pip install -U gensim
+pip install pycocotools
+pip install -U textblob
+python -m textblob.download_corpora
+pip install transformers
+pip install -U sentence-transformers
+
+python3 preprocess/boxes.py --symbol_annotation_filename "data/annotations/Symbols.json"
+python3 preprocess/labels.py --symbol_annotation_filename "data/annotations/Symbols.json"
+
+python3 text_rcnn_train_qa.py
+
