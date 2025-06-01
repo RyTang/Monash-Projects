@@ -7,9 +7,13 @@ This is an Image Processing project done in **MatLab**, to create from Scratch a
 
 **Models And Concepts Used:**
 - Bag Of Features
-- SURF
+- SURF + SVM Classifier
 - SIFT
 - CNN
+- DCT (Discrete Cosine Transform Image)
+
+## Input Output Flow
+![Flow](flow.png)
 
 ## General Process Done:
 1. Data Preparation (Image Processing)
